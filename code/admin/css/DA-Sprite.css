@@ -1,0 +1,183 @@
+/*form element sprite styles*/
+input[type="radio"], input[type="checkbox"] {display: none;}
+
+input[type="radio"]+label,input[type="radio"]:disabled+label{background-position: -666px -98px;width:13px;height:13px;display: inline-block;margin: 5px;padding: 0;vertical-align: middle;}
+input[type="radio"]:checked+label,input[type="radio"].error:checked+label{background-position:-665px -149px}
+input[type="radio"]:not(:checked):hover+label,input[type="radio"].error:not(:checked):hover+label{background-position:-665px -126px}
+input[type="radio"].error+label{background-position:-665px -173px}
+
+input[type="checkbox"]+label ,input[type="checkbox"]:disabled+label{background-position: -631px -98px;width:13px;height:13px;display: inline-block;padding: 0;vertical-align: middle;}
+input[type="checkbox"]:checked+label,input[type="checkbox"].error:checked+label {background-position:-631px -149px}
+input[type="checkbox"]:not(:checked):hover+label,input[type="checkbox"].error:not(:checked):hover+label {background-position:-631px -127px}
+input[type="checkbox"].error+label {background-position:-631px -174px}
+
+/*graph sprite styles*/
+.graphBox .circleMini.sector100 {background-position: 0 -179px;}
+.graphBox .circleMini.sector95 {background-position: -84px -179px;}
+.graphBox .circleMini.sector85{background-position: -167px -179px;}
+.graphBox .circleMini.sector75 {background-position: -251px -179px;}
+.graphBox .circleMini.sector65 {background-position: -334px -179px;}
+.graphBox .circleMini.sector55 {background-position: -418px -179px;}
+.graphBox .circleMini.sector50 {background-position: -501px -179px;}
+.graphBox .circleMini.sector45 {background-position: -585px -179px;}
+.graphBox .circleMini.sector35 {background-position: -668px -179px;}
+.graphBox .circleMini.sector25 {background-position: -752px -179px;}
+.graphBox .circleMini.sector15 {background-position: -835px -179px;}
+.graphBox .circleMini.sector5 {background-position: -919px -179px;}
+.graphBox .circleMini.sector0 {background-position: -1002px -179px;}
+.graphBox .circleMini.sectord {background-position: -1086px -179px}
+
+.graphBoxLarge .circleLarge.sector100 {background-position: 0px 0}
+.graphBoxLarge .circleLarge.sector95 {background-position: -180px 0}
+.graphBoxLarge .circleLarge.sector85{background-position: -360px 0}
+.graphBoxLarge .circleLarge.sector75 {background-position: -540px 0}
+.graphBoxLarge .circleLarge.sector65 {background-position: -720px 0}
+.graphBoxLarge .circleLarge.sector55 {background-position: -900px 0}
+.graphBoxLarge .circleLarge.sector50 {background-position: -1080px 0}
+.graphBoxLarge .circleLarge.sector45 {background-position: -1260px 0;}
+.graphBoxLarge .circleLarge.sector35 {background-position: -1440px 0}
+.graphBoxLarge .circleLarge.sector25 {background-position: -1620px 0}
+.graphBoxLarge .circleLarge.sector15 {background-position: -1800px 0}
+.graphBoxLarge .circleLarge.sector5 {background-position: -1980px 0}
+.graphBoxLarge .circleLarge.sector0 {background-position: -2160px 0}
+.graphBoxLarge .circleLarge.sectord {background-position: -2341px 0}
+
+/*** Sprite *******/
+.sprite-icon,input[type="checkbox"].error + label,input[type="checkbox"]:hover + label,input[type="checkbox"]:checked + label,input[type="radio"].error + label,input[type="radio"]:hover + label,input[type="radio"]:checked + label,input[type="checkbox"] + label,input[type="checkbox"]:disabled + label,input[type="radio"] + label,input[type="radio"]:disabled + label{background-image: url("../images/sprite-icons.png");}
+.sprite-graph-small{background-image:url("/images/Sprite-Graph-Small.png")}
+.sprite-graph-large{background-image:url("/images/sprite-graph-large.png")}
+/*.maleSmallLGray{background-position: -309px 0px;width: 7px;height: 17px}
+.maleSmallWhite{background-position: -309px -29px;width: 7px;height: 17px}
+.maleSmallSGray{background-position: -309px -60px;width: 7px;height: 17px}
+.maleLargeLGray{background-position: -304px -113px;width: 6px;height: 12px}
+.maleLargeWhite{background-position: -304px -143px;width: 6px;height: 12px}
+.maleLargeSGray{background-position: -304px -173px;width: 6px;height: 12px}
+.femaleSmallGray{background-position: -339px 0px;width: 7px;height: 17px}
+.femaleSmallWhite{background-position: -339px -30px;width: 7px;height: 17px}
+.femaleSmallSGray{background-position: -339px -60px;width: 7px;height: 17px}
+.femaleLargeLGray{background-position: -334px -113px;width: 6px;height: 12px}
+.femaleLargeWhite{background-position: -334px -143px;width: 6px;height: 12px}
+.femaleLargeSGray{background-position: -334px -174px;width: 6px;height: 12px}*/
+
+/*sprite-icons*/
+.daIconOffG{background-position: 0px 0px;height: 18px;width: 23px;}
+.daIconOffW{background-position: 0px -30px;height: 18px;width: 23px;}
+.daIconOffS{background-position: 0px -60px;height: 18px;width: 23px;}
+.daIconOnG{background-position: -30px 0px;height: 18px;width: 23px;}
+.daIconOnW{background-position: -30px -30px;height: 18px;width: 23px;}
+.daIconOnS{background-position: -30px -60px;height: 18px;width: 23px;}
+.searchIconG{background-position: -64px 0px;height: 18px;width: 15px;}
+.searchIconW{background-position: -64px -30px;height: 18px;width: 15px;}
+.searchIconS{background-position: -64px -60px;height: 18px;width: 15px;}
+.favIconOffG{background-position: -93px 0px;height: 18px;width: 18px;}
+.favIconOffW{background-position: -93px -30px;height: 18px;width: 18px;}
+.favIconOffS{background-position: -93px -60px;height: 18px;width: 18px;}
+.favIconOnG{background-position: -123px 0px;height: 18px;width: 18px;}
+.favIconOnW{background-position: -123px -30px;height: 18px;width: 18px;}
+.favIconOnS{background-position: -123px -60px;height: 18px;width: 18px;}
+.followIconG{background-position: -154px 0px;height: 17px;width: 17px;}
+.followIconW{background-position: -154px -30px;height: 17px;width: 17px;}
+.followIconS{background-position: -154px -60px;height: 17px;width: 17px;}
+.unfollowIconG{background-position: -185px 0px;height: 15px;width: 16px;}
+.unfollowIconW{background-position: -185px -30px;height: 15px;width: 16px;}
+.unfollowIconS{background-position: -185px -60px;height: 15px;width: 16px;}
+.lockOnG{background-position: -216px 0px;height: 17px;width: 14px;}
+.lockOnW{background-position: -216px -30px;height: 17px;width: 14px;}
+.lockOnS{background-position: -216px -60px;height: 17px;width: 14px;}
+.lockOffG{background-position: -246px 0px;height: 17px;width: 14px}
+.lockOffW{background-position: -246px -30px;height: 17px;width: 14px}
+.lockOffS{background-position: -246px -60px;height: 17px;width: 14px}
+.locationG{background-position: -276px 0px;height: 18px;width: 13px}
+.locationW{background-position: -276px -30px;height: 18px;width: 13px}
+.locationS{background-position: -276px -60px;height: 18px;width: 13px}
+.maleIconG{background-position: -309px 0px;height: 17px;width: 9px}
+.maleIconW{background-position: -309px -30px;height: 17px;width: 9px}
+.maleIconS{background-position: -309px -60px;height: 17px;width: 9px}
+.femaleIconG{background-position: -339px 0px;height: 17px;width: 9px}
+.femaleIconW{background-position: -339px -30px;height: 17px;width: 9px}
+.femaleIconS{background-position: -339px -60px;height: 17px;width: 9px}
+.timeIconG{background-position: -364px 0px;height: 17px;width: 19px}
+.timeIconW{background-position: -364px -30px;height: 17px;width: 19px}
+.timeIconS{background-position: -364px -60px;height: 17px;width: 19px}
+.notificationIconG{background-position: -392px 0px;height: 17px;width: 23px}
+.notificationIconW{background-position: -392px -30px;height: 17px;width: 23px}
+.notificationIconS{background-position: -392px -60px;height: 17px;width: 23px}
+.tickIconG{background-position: -423px 0px;height: 17px;width: 22px}
+.tickIconW{background-position: -423px -30px;height: 17px;width: 22px}
+.tickIconS{background-position: -423px -60px;height: 17px;width: 22px}
+.settingIconG{background-position: -454px 0px;height: 18px;width: 18px}
+.settingIconW{background-position: -454px -30px;height: 18px;width: 18px}
+.settingIconS{background-position: -454px -60px;height: 18px;width: 18px}
+.watchIconG{background-position: -482px 0px;height: 16px;width: 21px}
+.watchIconW{background-position: -483px -30px;height: 16px;width: 21px}
+.watchIconS{background-position: -483px -60px;height: 16px;width: 21px}
+.statsIconG{background-position: -511px 0px;height: 17px;width: 21px}
+.statsIconW{background-position: -511px -30px;height: 17px;width: 21px}
+.statsIconS{background-position: -511px -60px;height: 17px;width: 21px}
+.profileIconG{background-position: -543px 0px;height: 18px;width: 14px}
+.profileIconW{background-position: -543px -30px;height: 18px;width: 14px}
+.profileIconS{background-position: -543px -60px;height: 18px;width: 14px}
+.atIconG{background-position: -573px 0px;height: 16px;width: 16px}
+.atIconW{background-position: -573px -30px;height: 16px;width: 16px}
+.atIconS{background-position: -573px -60px;height: 16px;width: 16px}
+.larrowIconG{background-position: -603px 0px;height: 17px;width: 12px}
+.larrowIconW{background-position: -603px -30px;height: 17px;width: 12px}
+.larrowIconS{background-position: -603px -60px;height: 17px;width: 12px}
+.rarrowIconG{background-position: -633px 0px;height: 17px;width: 12px}
+.rarrowIconW{background-position: -633px -30px;height: 17px;width: 12px}
+.rarrowIconS{background-position: -633px -60px;height: 17px;width: 12px}
+.editIconG{background-position: -660px 0px;height: 17px;width: 19px}
+.editIconW{background-position: -660px -30px;height: 17px;width: 19px}
+.editIconS{background-position: -660px -60px;height: 17px;width: 19px}
+.commentSmallIconG{background-position: -0px -113px;height: 13px;width: 13px}
+.commentSmallIconW{background-position: -0px -143px;height: 13px;width: 13px}
+.commentSmallIconS{background-position: -0px -173px;height: 13px;width: 13px}
+.watchSmallIconG{background-position: -29px -113px;height: 11px;width: 16px}
+.watchSmallIconW{background-position: -29px -143px;height: 11px;width: 16px}
+.watchSmallIconS{background-position: -29px -173px;height: 11px;width: 16px}
+.moreSmallIconG{background-position: -62px -113px;height: 14px;width: 8px}
+.moreSmallIconW{background-position: -62px -143px;height: 14px;width: 8px}
+.moreSmallIconS{background-position: -62px -173px;height: 14px;width: 8px}
+.darrowSmallIconG{background-position: -92px -114px;height: 10px;width: 8px}
+.darrowSmallIconW{background-position: -92px -144px;height: 10px;width: 8px}
+.darrowSmallIconS{background-position: -92px -174px;height: 10px;width: 8px}
+.uarrowSmallIconG{background-position: -121px -114px;height: 10px;width: 8px}
+.uarrowSmallIconW{background-position: -121px -144px;height: 10px;width: 8px}
+.uarrowSmallIconS{background-position: -121px -174px;height: 10px;width: 8px}
+.rarrowSmallIconG{background-position: -153px -114px;height: 10px;width: 8px}
+.rarrowSmallIconW{background-position: -153px -144px;height: 10px;width: 8px}
+.rarrowSmallIconS{background-position: -153px -174px;height: 10px;width: 8px}
+.larrowSmallIconG{background-position: -183px -114px;height: 10px;width: 8px}
+.larrowSmallIconW{background-position: -183px -144px;height: 10px;width: 8px}
+.larrowSmallIconS{background-position: -183px -174px;height: 10px;width: 8px}
+.udarrowSmallIconG{background-position: -213px -114px;height: 10px;width: 8px}
+.udarrowSmallIconW{background-position: -213px -144px;height: 10px;width: 8px}
+.udarrowSmallIconS{background-position: -213px -174px;height: 10px;width: 8px}
+.locationSmallIconG{background-position: -244px -112px;height: 15px;width: 9px}
+.locationSmallIconW{background-position: -244px -144px;height: 15px;width: 9px}
+.locationSmallIconS{background-position: -244px -174px;height: 15px;width: 9px}
+.closeSmallIconG{background-position: -273px -114px;height: 10px;width: 10px}
+.closeSmallIconW{background-position: -273px -144px;height: 10px;width: 10px}
+.closeSmallIconS{background-position: -273px -174px;height: 10px;width: 10px}
+.maleSmallIconG{background-position: -304px -114px;height: 13px;width: 6px}
+.maleSmallIconW{background-position: -304px -144px;height: 13px;width: 6px}
+.maleSmallIconS{background-position: -304px -174px;height: 13px;width: 6px}
+.femaleSmallIconG{background-position: -334px -114px;height: 13px;width: 6px}
+.femaleSmallIconW{background-position: -334px -144px;height: 13px;width: 6px}
+.femaleSmallIconS{background-position: -334px -174px;height: 13px;width: 6px}
+.timeSmallIconG{background-position: -361px -113px;height: 14px;width: 14px}
+.timeSmallIconW{background-position: -361px -143px;height: 14px;width: 14px}
+.timeSmallIconS{background-position: -361px -173px;height: 14px;width: 14px}
+.statsSmallIconG{background-position: -390px -113px;height: 13px;width: 16px}
+.statsSmallIconW{background-position: -390px -143px;height: 13px;width: 16px}
+.statsSmallIconS{background-position: -390px -173px;height: 13px;width: 16px}
+
+/*
+.addReplyInactiveGray{background-position: -62px 73px; height: 11px; width: 6px;}
+.addReplyWhite{background-position: -62px 43px; height: 11px; width: 6px;}
+.addReplyActiveSlate{background-position: -62px 13px; height: 11px; width: 6px;}
+.showReplyInactiveGray{background-position: 0 74px;height: 12px;width: 12px;}
+.showReplyInactiveWhite{background-position: 0 44px;height: 12px;width: 12px;}
+.showReplyActiveSlate{background-position: 0 14px;height: 12px;width: 12px;}
+.favoriteOffWhite{background-position: -93px -29px;width: 18px;height: 18px}
+.favoriteOnWhite{background-position: -123px -31px;width: 18px;height: 18px}*/
