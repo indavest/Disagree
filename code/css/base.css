@@ -1,0 +1,1576 @@
+/*** Fonts *****/
+@font-face {
+    font-family: 'Aller';
+    src: url('/css/font/Aller_Std.eot');
+    src: url('/css/font/Aller_Std.eot?#iefix') format('embedded-opentype'),url('/css/font/Aller_Std.woff') format('woff'),url('/css/font/Aller_Std.ttf') format('truetype'),url('/css/font/aller_std.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arimo';
+    src: url('/css/font/arimo-regular-webfont.eot');
+    src: url('/css/font/arimo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/css/font/arimo-regular-webfont.woff') format('woff'),
+    url('/css/font/arimo-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ArimoBold';
+    src: url('/css/font/arimo-bold-webfont.eot');
+    src: url('/css/font/arimo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/css/font/arimo-bold-webfont.woff') format('woff'),
+    url('/css/font/arimo-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+/*Font-Sizes*/
+body{font-size: 12px;}
+/*font-size:10px;=83.33333333333333%;=0.833em*/
+img,.timeagoText,.counter,.smallText,.blockQuote,.graphBox .AgreeButton, .graphBox .DisagreeButton,.textSmallBold,.replyContentWrapper .username,.replyContentWrapper .username+span,.replyContentWrapper .argumentContent,#SocialMediaContentHolder .argumentDesc{font-size: 10px}
+/*font-size:11px;=91.66666666666667%;=0.917em*/
+.othersStatTitle{font-size: 11px;}
+/*font-size:12px;=100%;=1em*/
+button, .button,h5,.heading5,.heading5Link,h6,.heading6,.heading6Link,.primarytext,.linkRegular,.linkStrong,img,.secondaryText,SuggestionBoxWrapper#searchBox,#SuggestionBox,#youText,input[type="text"],input[type="password"],select,textarea,option,.textBox, .textarea,li#argumentsLink>a,#startArgument,#headerAbout a,#headerContact a,.notificationMsg .profileUserName {font-size: 12px}
+/*font-size:14px;=116.66666666666667%;=1.167em*/
+h4,.heading4,.heading4Link,#argumentTotalVoteCount+.opinionText,.agreesTip > div,.disagreesTip > div {font-size: 14px}
+/*font-size:17px;=141.66666666666666%;=1.417em*/
+#genderCheck .iPhoneCheckContainer label,.iPhoneCheckContainer label{font-size: 17px}
+/*font-size:18px;=150.0%;=1.500em*/
+h3,.heading3,.heading3Link,.blockQuote,.agreeStats .agreedPercentage sup, .disAgreeStats .disAgreedPercentage sup{font-size: 18px}
+/*font-size:21px;=175.0%;=1.750em*/
+.headingLight{font-size: 21px}
+/*font-size:24px;=200.0%;=2.000em*/
+h2,.heading2,.heading2Link{font-size: 24px}
+/*font-size:30px;=250%;=2.500em*/
+h1,.heading1,.heading1Link,.agreeStats > li:not(.agreedPercentage), .disAgreeStats > li:not(.disAgreedPercentage){font-size: 30px}
+/*font-size:30px;=250.00%;=2.500em*/
+#agreeTotalPercentage.fontsmall,#disagreeTotalPercentage.fontsmall{font-size: 29px}
+/*font-size:32px;=266.6666666666667%;=2.667em*/
+/*font-size:36px;=300%;=3.000em*/
+.staticHeading{font-size: 36px}
+/*font-size:48px;=400%;=4.000em*/
+.pofilestatContent,.agreeStats .agreedPercentage .fontlarge, .disAgreeStats .disAgreedPercentage .fontlarge{font-size: 48px}
+
+/*overrides*/
+img,a,fieldset{border: 0 none transparent}
+button, .button{border-width: 1px;color:#fefaef }
+textarea{resize: none}
+fieldset{margin: 0;}
+fieldset{padding: 0;}
+.loginActionContainer{width: 100%}
+#popupContainer span,label,p,h1,h2,h3,h4,h5,h6{cursor: auto;}
+/*cursor:pointer*/
+#popupContainer #postNewArgButton span,.showReplyLink.on,.showReplyLink.off,.addReplyLink.on,.addReplyLink.off,.cancelReply,.cursorPointer,.adToggle,button, .button,input[type=button],.graphBox .AgreeButton,.graphBox .DisagreeButton,li#userInfoDisplayWrapper>.signIn,.lockArgument,.favoriteArgument,.postContentActions>span.readMoreLink,.postContentActions>span.statCount,.DAtip,#argumentTotalVoteCount,.opinionText,button,.signIn,#createAccount,#popupContainer .loginContainer button span,#popupContainer .loginContainer .primaryButton,#popupContainer .creatAccountContainer button span,#popupContainer .creatAccountContainer .primaryButton,#popupContainer .toggleSignIn,#popupContainer .toggleSignUp,.pagingCircle,#popupContainer a.username>span,#argumentDetailHead #argumentOwnerImg {cursor: pointer}
+/*outline:none*/
+body *,span,img,a,input,.linkRegular,.linkStrong,.linkEmphasis,.heading1Link,.heading2Link,.heading3Link,.heading4Link,.heading5Link,.heading6Link,img,.timeagoText,.counter,#argumentDetailHead,button,input[type="button"]{outline: 0 none}
+/*text-align:center*/
+.graphBox .AgreeButton,.graphBox .DisagreeButton,.graphBox .circleMini,.profileStatTitle,.pofilestatContent,.loginContainer>.divider,.creatAccountContainer>.divider,#footerLoader,.quickMenu>ul>li>a>span:first-child,#staticContainer>h1,#aboutContainer .heading2{text-align:center}
+/*float:none*/
+.argumentDesc .readMoreLink,#profileContentWrapper.followingFeed>.secondaryContainer>.heading3,#profileContentWrapper.followersFeed>.secondaryContainer>.heading3,#argumentDetailHead .argumentTitle a,#argumentDetailHead .currentArgumentDesc a,#argumentDetailBody .profileGraph .timelineArgument .argumentContent a{float: none;}
+/*float:left elements*/
+.floatleft,.othersStatTitle,.argueText,#homeArgumentNav,.userImgCircleSmall,.userImgCircleMed,body,a,ul,li,address,#header,#headerMenu,#footer,#footerMenu,#mainContainer,.primaryButton,#startArgument,#profileHead,.userImgCircleFull,#profileInfo,#profileBasicInfo a,#profileBasicInfo h6,#profileBasicInfo,#youText,#profileBasicInfo button,#editProfileButton,#profileStatBoard,.profilestatTitle,#settingButton span,.pofilestatContent,#profileNavMenu,#profileContentWrapper,#profileContentWrapper>div,.contentHead,.contentHead>p,.profileActionText,.timeagoText,.argumentUserActions,.lockArgument,.favoriteArgument,.contentBody,.favoriteButton,#argumentDetailHead .userProfile,#argumentOwnerImg,#argumentDetailHead,.timeagoTextFull,.topicArgCount,.topicLable,.shareToolBar,.shareToolBar>div,.shareToolBar>div,.graphBox .AgreeButton,.graphBox .DisagreeButton,.graphBox,.readMoreLink,.DAtip,.DAtoolTipDown .tipContent,.DAtoolTipUp .tipContent, .DAtoolTipLeft .tipContent, .DAtoolTipRight .tipContent,.DAtoolTipRight>i,.DAtoolTipLeft>i,.DAtoolTipUp >i,.DAtoolTipDown>i,li#userInfoDisplayWrapper>#createAccount,.othersStats,.statsInfoOthers,.loginContainer>.divider,.creatAccountContainer>.divider,.startArgumentContainer>label,.startArgumentContainer>input,.startArgumentContainer>textarea,.startArgumentContainer>select,.startArgumentContainer>.primaryButton,#footerLoader,li#userInfoDisplayWrapper>.signInli#userInfoDisplayWrapper>.signIn,.othersStatTitle#argumentDetailHead .argumentTitle,#argumentDetailHead .argumentDesc,.loginContainer,.loginContainer .primaryButton,.loginContainer>form>input,.loginContainer .loginActionContainer,.creatAccountContainer>.createActionContainer>span,.startArgumentContainer,.sprite-icon,#forgetPassForm form,#homepageWrapper,#staticMenuContainer,#welcomepageWrapper,.loginContainer>form,.loginContainer>form>fieldset,.loginContainer>form>fieldset>input,.loginActionContainer,.creatAccountContainer>form,.creatAccountContainer>form>fieldset,.creatAccountContainer>form>fieldset>input,.createActionContainer,.accountActionContainer,#forgetPassSubmit,#SocialMediaContentHolder .slidePage{float:left}
+/*float:right elements*/
+.floatright,#profileContentWrapper.followingFeed>.secondaryContainer>button,#profileContentWrapper.followersFeed>.secondaryContainer>button , #profileStatBoard,li#userInfoDisplayWrapper>div,li#userInfoDisplayWrapper>a,li#userInfoDisplayWrapper>div>button,li#userInfoDisplayWrapper>div>span,li#userInfoDisplayWrapper>.userImgCircleSmall,.graphBox .DisagreeButton,.postContentActions>span.commentCount,.postContentActions>span.statCount,.topicLableWrapper,.startArgumentContainer>.primaryButton,.loginContainer .signInButton{float:right;}
+/*clear:both elements*/
+#profileBasicInfo address,#profileInfo>button,#argumentDetailHead .argumentTitle,#argumentDetailHead .argumentDesc,.postContentActions,.timeagoTextFull,.postContentActions{clear: both;}
+/*clear:right*/
+#profileBasicInfo .tipContent address{clear:right}
+/*font-weight:bold*/
+.lable,.maleAgreed span,.headingLight,.linkStrong,li#userInfoDisplayWrapper .username,#youText,.pofilestatContent,button,.button,.textSmallBold,.notificationMsg .profileBasicInfo{font-weight: bold;}
+/*font-weight:normal*/
+.postContentActions>span.readMoreLink,.postContentActions>span.commentCount,.postContentActions>span.statCount,.primarytext,.linkRegular,.secondaryText,#SuggestionBox,#searchBox{font-weight: normal;}
+/*font-family:aller*/
+h1,h2,h3,h4,h5,h6,.heading1,.heading2,.heading3,.heading4,.heading5,.heading6,.heading1Link,.heading2Link,.heading3Link,.heading4Link,.heading5Link,.heading6Link,.headingLight,.blockQuote,.pofilestatContent{font-family: Aller}
+/*font-family:arimo*/
+#SuggestionBox,#searchBox,.profileActionText,.primarytext,.linkStrong,img,.secondaryText,.profileStatTitle,button,.button,.textSmallBold{font-family: ArimoBold}
+/*font-family:arimoReg*/
+body,.linkRegular{font-family:Arimo;}
+/*display:block*/
+#argumentDetailHead .argumentTitle,#argumentDetailHead .argumentDesc,.loginContainer .signInButton,address,.postContentActions,.profileGraph .textSmallBold,.displayblock{display:block}
+/*display:inline*/
+.displayinline{display:inline;}
+/*display:none*/
+#emailInviteContainer,.displaynone,#updateArgButton{display: none;}
+
+/*color styles*/
+/*primary colors*/
+body,h1,h2,h1.heading1,h2.heading2,h3.heading3,h4.heading4,h5.heading5,.linkStrong,.linkEmphasis,.blockQuote,.primarytext,#homeNavLink,#headerMenu .primarytext,#ul.horizontalMenu,#ul.horizontalSearchMenu,.lable,label,.disabled,.contentBody>a,.contentBody,#footerMenu>li>a{color:#46322b}
+body.secondaryText,address,img,.heading6,.secondaryText,.secondaryTextColor,#argumentDetailHead .topicLable a,.counter,input[type="text"],input[type="password"], .textBox, .textarea,.disabled,.headingLight{color:#a8a096}
+.secondaryBorderColor,#mainContainer,.secondaryContainer,.primaryButton.disabled,.primaryBorder,button,button:disabled,input[type="button"],input[type="button"]:disabled,input[type="text"],input[type="password"], input[type="checkbox"], input[type="radio"], textarea, select,input[type="text"]:disabled, input[type="checkbox"]:disabled, input[type="radio"]:disabled, textarea:disabled, select:disabled, .textBox:disabled, .textarea:disabled,.othersStats,.topicArgCount,.loginContainer>.divider,.loginContainer>.loginActionContainer,#searchWrapper,#notificationCountContainer,#staticMenuContainer{border-color: #f0e9e1}
+.activeMenu,.topicLable,#aboutContainer>ul>li>div:first-child,.postContentActions{background: #f0e9e1}
+.timelineArgument .argumentContent,.replyContentWrapper .argumentContent{color: #51423C;}
+.float{float:left;}
+
+.heading1Link, .heading2Link, .heading3Link, .heading4Link, .heading5Link, .heading6Link, .linkRegular, .headingLight a, .timeStamp .dataSource, .timeagoText .dataSource, .addReplyLink.on, .showReplyLink.on, .profileNotificationContainer,.profileActivityContainer,.toggleSignIn,.toggleSignUp {color: #8c9aa1;}
+/*background*/
+address{line-height: 15px;padding: 5px 0 0;}
+body,.primaryBackground,button,input[type="button"],input[type="text"],input[type="password"],input[type="checkbox"],input[type="radio"],textarea,select,.textBox,.textarea{background: #fefaef}
+/*secondary colors*/
+.agreementGradient{background: #98a280}
+.agreementText{color:#98a280}
+.disagreementGradient{background: #f28f6f}
+.disagreementText{color: #f28f6f}
+.primaryButton,button.buttonLink,a.buttonLink,.buttonLink{background: #8c9aa1;}
+
+/*gradients*/
+/*primary gradients*/
+#mainContainer,.secondaryContainer,#profileNavMenu ul li .counter{background: #ffffff}
+#mainContainer{-webkit-border-radius: 12px;-moz-border-radius: 12px;border-radius: 12px;}
+
+.secondaryContainer{
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWZhZWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #ffffff 0%, #fefaef 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fefaef));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#fefaef 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#fefaef 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#fefaef 100%);
+    background: linear-gradient(top,  #ffffff 0%,#fefaef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fefaef',GradientType=0 );
+}
+
+/*secondary gradients*/
+.primaryButton{border-color: #768187;padding: 0 14px;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ExYjFiOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3NjgxODciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #a1b1b9 0%, #768187 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a1b1b9), color-stop(100%,#768187));
+    background: -webkit-linear-gradient(top,  #a1b1b9 0%,#768187 100%);
+    background: -o-linear-gradient(top,  #a1b1b9 0%,#768187 100%);
+    background: -ms-linear-gradient(top,  #a1b1b9 0%,#768187 100%);
+    background: linear-gradient(top,  #a1b1b9 0%,#768187 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1b1b9', endColorstr='#768187',GradientType=0 );
+}
+.primaryButtonActive,#genderCheck label.iPhoneCheckLabelOn,label.iPhoneCheckLabelOn{border-color: #768187;padding: 0 14px;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc2ODE4NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhMWIxYjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #768187 0%, #a1b1b9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#768187), color-stop(100%,#a1b1b9));
+    background: -webkit-linear-gradient(top,  #768187 0%,#a1b1b9 100%);
+    background: -o-linear-gradient(top,  #768187 0%,#a1b1b9 100%);
+    background: -ms-linear-gradient(top,  #768187 0%,#a1b1b9 100%);
+    background: linear-gradient(to bottom,  #768187 0%,#a1b1b9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#768187', endColorstr='#a1b1b9',GradientType=0 );
+
+}
+
+/*.activeMenu,*/.primaryButton.disabled,.AgreeButton.disabled,.Disagreebutton.disabled{padding: 0 10px;
+                    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZjdlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNmQwYzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+                    background: -moz-linear-gradient(top,  #fef7ef 0%, #d6d0c9 100%);
+                    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fef7ef), color-stop(100%,#d6d0c9));
+                    background: -webkit-linear-gradient(top,  #fef7ef 0%,#d6d0c9 100%);
+                    background: -o-linear-gradient(top,  #fef7ef 0%,#d6d0c9 100%);
+                    background: -ms-linear-gradient(top,  #fef7ef 0%,#d6d0c9 100%);
+                    background: linear-gradient(top,  #fef7ef 0%,#d6d0c9 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fef7ef', endColorstr='#d6d0c9',GradientType=0 );
+
+                }
+.agreementGradient{border-color: #818a6d;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FmYmI5NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4MThhNmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #afbb94 0%, #818a6d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#afbb94), color-stop(100%,#818a6d));
+    background: -webkit-linear-gradient(top,  #afbb94 0%,#818a6d 100%);
+    background: -o-linear-gradient(top,  #afbb94 0%,#818a6d 100%);
+    background: -ms-linear-gradient(top,  #afbb94 0%,#818a6d 100%);
+    background: linear-gradient(top,  #afbb94 0%,#818a6d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afbb94', endColorstr='#818a6d',GradientType=0 );
+}
+.agreementGradientActive{border-color: #818a6d;
+    background: #818a6d;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzgxOGE2ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhZmJiOTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #818a6d 0%, #afbb94 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#818a6d), color-stop(100%,#afbb94));
+    background: -webkit-linear-gradient(top,  #818a6d 0%,#afbb94 100%);
+    background: -o-linear-gradient(top,  #818a6d 0%,#afbb94 100%);
+    background: -ms-linear-gradient(top,  #818a6d 0%,#afbb94 100%);
+    background: linear-gradient(to bottom,  #818a6d 0%,#afbb94 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#818a6d', endColorstr='#afbb94',GradientType=0 );
+}
+.disagreementGradient{border-color: #d98164;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlOTc3MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkOTgxNjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #fe9773 0%, #d98164 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe9773), color-stop(100%,#d98164));
+    background: -webkit-linear-gradient(top,  #fe9773 0%,#d98164 100%);
+    background: -o-linear-gradient(top,  #fe9773 0%,#d98164 100%);
+    background: -ms-linear-gradient(top,  #fe9773 0%,#d98164 100%);
+    background: linear-gradient(top,  #fe9773 0%,#d98164 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe9773', endColorstr='#d98164',GradientType=0 );
+}
+.disagreementGradientActive{border-color: #d98164;
+    background: #d98164;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q5ODE2NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZTk3NzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #d98164 0%, #fe9773 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d98164), color-stop(100%,#fe9773));
+    background: -webkit-linear-gradient(top,  #d98164 0%,#fe9773 100%);
+    background: -o-linear-gradient(top,  #d98164 0%,#fe9773 100%);
+    background: -ms-linear-gradient(top,  #d98164 0%,#fe9773 100%);
+    background: linear-gradient(to bottom,  #d98164 0%,#fe9773 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d98164', endColorstr='#fe9773',GradientType=0 );
+}
+.obtuseGradient{
+    background: #fff8f0;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZjhmMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YwZTllMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNmQwYzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #fff8f0 0%, #f0e9e1 50%, #d6d0c9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff8f0), color-stop(50%,#f0e9e1), color-stop(100%,#d6d0c9));
+    background: -webkit-linear-gradient(top,  #fff8f0 0%,#f0e9e1 50%,#d6d0c9 100%);
+    background: -o-linear-gradient(top,  #fff8f0 0%,#f0e9e1 50%,#d6d0c9 100%);
+    background: -ms-linear-gradient(top,  #fff8f0 0%,#f0e9e1 50%,#d6d0c9 100%);
+    background: linear-gradient(top,  #fff8f0 0%,#f0e9e1 50%,#d6d0c9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff8f0', endColorstr='#d6d0c9',GradientType=0 );
+}
+.obtuseGradientActive{
+    background: #d6d0c9;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q2ZDBjOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWY3ZWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #d6d0c9 0%, #fef7ef 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6d0c9), color-stop(100%,#fef7ef));
+    background: -webkit-linear-gradient(top,  #d6d0c9 0%,#fef7ef 100%);
+    background: -o-linear-gradient(top,  #d6d0c9 0%,#fef7ef 100%);
+    background: -ms-linear-gradient(top,  #d6d0c9 0%,#fef7ef 100%);
+    background: linear-gradient(to bottom,  #d6d0c9 0%,#fef7ef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d0c9', endColorstr='#fef7ef',GradientType=0 );
+}
+/*border-radius*/
+.userImgCircleSmall,.userImgCircleMed{-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;}
+button,input[type="text"],input[type="password"],textarea,select,input[type="button"],.activeMenu,.primaryButton,.agreementGradient,.disagreementGradient,.secondaryContainer,#profileStatBoard,.postContentActions,#profileNavMenu ul li .counter,.DAtoolTipDown .tipContent, .DAtoolTipUp .tipContent, .DAtoolTipLeft .tipContent, .DAtoolTipRight .tipContent,#searchWrapper, #notificationCountContainer{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+.userImgCircleFull{-webkit-border-radius: 90px;-moz-border-radius: 90px;border-radius: 90px;}
+/*border-color*/
+#profileStatBoard,#settingButton,.activeMenu,.primaryButton.disabled{border:1px solid #d6d0c9;}
+/*box-shadow*/
+#mainContainer,#searchWrapper,.quickMenu,.hozontalMenuTopicList{-webkit-box-shadow: #c9c6bd 0px 1px 3px 0px;-moz-box-shadow: #c9c6bd 0px 1px 3px 0px;box-shadow: #c9c6bd 0px 1px 3px 0px;}
+.secondaryContainer.boxShadow{-webkit-box-shadow: 0px 2px 4px 0px #bdb7b1;box-shadow: 0px 2px 4px 0px #bdb7b1;}
+#updateCommentReply,#postAgree,.agreementGradient,.agreementGradientActive{-webkit-box-shadow: 0px 1px 3px 0px #515744,inset 0px 1px 0px 0px #b6c299;box-shadow: 0px 1px 3px 0px #515744,inset 0px 1px 0px 0px #b6c299;}
+#postDisagree,.disagreementGradient,.disagreementGradientActive{-webkit-box-shadow:#a6634c 0px 1px 3px 0px, inset #fca78b 0px 1px 0px 0px;box-shadow: #a6634c 0px 1px 3px 0px, inset #fca78b 0px 1px 0px 0px;}
+.primaryButton,.primaryButtonActive{-webkit-box-shadow: 0 2px 2px 0 #495154, 0 2px 0 0 #ADBEC7 inset;box-shadow: 0px 2px 2px 0px #495154,inset 0px 2px 0px 0px #adbec7;height:30px;}
+/*.activeMenu,*/.primaryButton.disabled{-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;box-shadow: inset 0px 1px 0px 0px #ffffff;}
+#settingButton{-webkit-box-shadow: 0 2px 0 0 #FFFFFF inset;box-shadow: 0 2px 0 0 #FFFFFF inset;}
+.statBoardShadow{-webkit-box-shadow: 0px 2px 5px rgba(96, 80, 59, 0.34);-moz-box-shadow:0px 2px 5px rgba(96, 80, 59, 0.34);box-shadow:0px 2px 5px rgba(96, 80, 59, 0.34);}
+#SuggestionBox,#searchBox{-webkit-box-shadow: inset 0px 2px 6px 0px #cdc7c1,0px  1px 0px 0px #ffffff;box-shadow:inset 0px 2px 6px 0px #cdc7c1,0px 1px 0px 0px #ffffff;}
+.profileStatTitle{-webkit-box-shadow:-1px 0px 0px rgba(255, 255, 255, 0.58),0px 2px 0px #ffffff inset;-moz-box-shadow:-1px 0px 0px rgba(255, 255, 255, 0.58),0px 2px 0px #ffffff inset;box-shadow:-1px 0px 0px rgba(255, 255, 255, 0.58),0px 2px 0px #ffffff inset;}
+button,input[type="button"],input[type="text"],input[type="password"],input[type="checkbox"],input[type="radio"],textarea,select,.textBox,.textarea{-webkit-box-shadow: inset 0px 2px 4px 0px #f0e9e1;box-shadow: inset 0px 2px 4px 0px #f0e9e1}
+/*font styles*/
+/*headings*/
+
+.headingLight a,a.headingLight{text-decoration: none;}
+h1,.heading1,.heading1Link{line-height: 30px;margin: 16px 0}
+h2,.heading2,.heading2Link{line-height: 30px;margin: 14px 0}
+h3,.heading3,.heading3Link{line-height: 27px;margin: 14px 0}
+h4,.heading4,.heading4Link{line-height: 18px;margin: 15px 0}
+h5,.heading5,.heading5Link{line-height: 18px;margin: 16px 0}
+h6,.heading6,.heading6Link{line-height: 18px;margin: 18px 0}
+.staticHeading{line-height: 48px;font-weight: 400}
+input[type="text"],input[type="password"],textarea,.textBox,select,option{font-family:Arimo;color:#a8a096}
+/*normal text, alt text and links*/
+body,.primarytext,.linkRegular,.linkStrong,img{line-height: 18px}
+body a{text-decoration: none;}
+
+
+.linkEmphasis{font-style: italic;}
+.linkRegular,.linkStrong,.linkEmphasis,.heading1Link,.heading2Link,.heading3Link,.heading4Link,.heading5Link,.heading6Link{text-decoration: none;}
+
+.secondaryText{line-height: 14px;}
+
+/*block quote*/
+.blockQuote{font-style: italic;line-height: 24px}
+.blockQuote .secondaryText{line-height: 24px;}
+/*table*/
+/************************************/
+
+/*form / interface styles*/
+button,button:disabled,input[type="button"],input[type="button"]:disabled,input[type="submit"],input[type="submit"]:disabled,input[type="text"],input[type="text"]:disabled,input[type="password"],input[type="password"]:disabled, input[type="checkbox"], input[type="checkbox"]:disabled,input[type="radio"],input[type="radio"]:disabled, textarea,textarea:disabled, select, select:disabled,.textBox,.textBox:disabled, .textarea,.textarea:disabled,#profileNavMenu ul li .counter,.argumenContent,#profileContentWrapper>div,.graphBox .AgreeButton,.graphBox .DisagreeButton,#searchWrapper{border-style: solid;border-width:1px; }
+button:active, input[type="button"]:active,input[type="button"]:focus,input[type="text"]:focus, input[type="checkbox"]:focus, input[type="radio"]:focus, input[type="password"]:focus, input[type="password"]:active, textarea:focus, .textBox:focus, .textarea:focus, input[type="text"]:active, input[type="checkbox"]:active, input[type="radio"]:active, textarea:active, .textBox:active, .textarea:active{border-color: #a8a096}
+div.error,ul.error,input.na[type="text"],textarea.na,input.error[type="text"],input.error[type="password"], input.error[type="checkbox"], input.error[type="radio"], textarea.error, select.error, .textBox.error, .textarea.error{border-color: #b8411a}
+input[type="text"],input[type="password"], .textBox, .textarea{height: 24px;}
+div.error,ul.error,input.error[type="text"],input.error[type="password"], input.error[type="checkbox"], input.error[type="radio"], textarea.error, select.error, .textBox.error, .lable.error{color:#b8411a}
+input[type="text"],input[type="password"], textarea, select, .textBox, .textarea{padding:5px}
+textarea:focus,.textarea:focus,textarea:active,.textarea:active{border: 1px solid #d7d0c7}
+
+/*horizontal menu*/
+ul.horizontalMenu{list-style-type: none;margin: 0;padding: 0}
+ul.horizontalMenu>li{display: inline;}
+/*ul.horizontalMenu>li>.category{float: right;margin: 4px 0 4px 4px !important;}*/
+ul.horizontalMenu>li>.category>.darrowSmallIconG{float: right; margin: 3px 0 3px 5px;}
+ul.horizontalSearchMenu{list-style-type: none;margin: 0 341px;padding: 0}
+ul.horizontalSearchMenu>li{display: inline;}
+/*page styles*/
+
+
+body{background: url('/images/body_bg.gif') scroll  0 0 repeat transparent;border: none;margin: 0;padding: 0;width: 100%;overflow-x: hidden;}
+#contentContainer{margin:0 auto;width: 980px;/*position:relative;overflow: auto;*/}
+#ScrollTopButton{color: #FFFFFF;display: none;height: 64px;opacity: 0.2;padding: 0;position: fixed;right: 5px;top: 88px;width: 64px;}
+#ScrollTopButton img{color:#fff}
+#inviteFriendsOverlay{cursor:pointer;margin: 0px; position: fixed; bottom: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; right: 20px;z-index: 101}
+#header{width:100%;margin:24px 0}
+#header>a{width: 15.3%}
+#logoLink{position: relative;}
+.betalogotext{color: #46322B;font-size: 11px;font-style: normal;font-weight: bold;opacity: 0.8;position: absolute;right: 1px;top: 27px;}
+#headerMenu{margin: 0 0 0 2%;width: 82.7%}
+#headerMenu>li{border-right: 1px solid #C1B7AB;margin: 10px 0 0}
+li#argumentsLink{width: 10%; margin: 1.2% 0px}
+li#argumentsLink>a{text-align: center; width: 100%; float: left;}
+
+li#searchBoxWrapper,li#SuggestionBox{position: relative;width: 20%; margin: 0px; border: 0px none; padding: 0.4% 2%;}
+li#searchBoxWrapper>i,li#SuggestionBox>i{left: 25px;position: absolute;top: 10px;}
+#searchBox,#SuggestionBox{background: none repeat scroll 0 0 #F0E9E1;border-color: #C1B7AB;border-width: 1px;height: 30px;margin: 0;padding: 0 0 0 30px;width: 80%}
+/****Search****/
+#searchWrapper{display: none;left: 470px;padding: 0 5px;position: absolute;top: 68px;width: 270px;z-index: 999;}
+#searchWrapper>#searchMenu{border-bottom: 1px solid #F0E9E1;float: left;text-align: center;width: 100%;}
+#searchWrapper>#searchMenu>span{cursor: pointer;float: left;margin: 3.4% 0;padding: 2% 0;text-align: center;width: 49%;}
+#searchWrapper>#searchList{float: left;width: 100%}
+#searchWrapper>#searchList>#searchArgumentList .contentHead{padding: 5px 10px;width:248px;}
+#searchWrapper>#searchList>#searchArgumentList .contentHead>p>span:first-child{float:left;}
+#searchWrapper>#searchList>#searchMemberList .contentHead{padding: 5px 10px;border-bottom:1px solid #f0e9e1;width:248px;}
+#searchWrapper>#searchList>#searchArgumentList .contentBody{margin:0;height: auto;border-bottom:1px solid #f0e9e1;width:248px;padding:0 10px;}
+#searchMemberList{display: none;}
+#searchArgumentList h6,#searchMemberList h6{margin: 5px;text-align: center;}
+#searchWrapper .quickMenuTip{left: 18px}
+.searchLoader{float: left;text-align: center;width: 100%;}
+#searchList>div>.more{width:51px;margin: 0 auto;}
+
+li#userInfoDisplayWrapper{position: relative;border: 0 none;margin: 0;padding: 0;width: 37%;}
+li#userInfoDisplayWrapper>div{float: right}
+.userImgCircleSmall{border: 0 none;cursor: pointer;display: inline;height: 35px;margin: 2px 7px 1px 0;overflow: hidden;width: 35px;}
+li#userInfoDisplayWrapper>div>div.userNameWrapper{float: left; border-right: 1px solid #C1B7AB; padding-right: 15px; margin: 9px 0px;}
+li#userInfoDisplayWrapper>div>div.userNameWrapper>span:first-child{float: left; line-height: 20px}
+.userImgCircleMed{border: 0 none;display: inline;height: 50px;margin: 0 7px 0 0;overflow: hidden;width: 50px}
+.thirdPartyImgSmall{width:35px;min-height:35px}
+.thirdPartyImgLarge{width:180px;min-height:180px}
+li#userInfoDisplayWrapper .username{float: left;margin: 0 0 0 5px}
+li#userInfoDisplayWrapper .username >a{line-height: 20px}
+#notificationCountContainer{float:left;background-color: #FFFFFF;border: 1px solid #F0E9E1;display: none;margin: 2px 0 0 10px;padding: 0 5px}
+#notificationCountContainer>a{text-decoration: none; line-height: 13px}
+#settingButton{float:left;margin: 0 0 0 9px;width: 21px;height: 19px;}
+#settingButton span{width: 7px;height: 12px}
+/******** QucikNavigation **********/
+.quickMenu{
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    margin-right: 0;
+    margin-top: 38px;
+    padding: 12px 0;
+    position: absolute;
+    right: 0;
+    width: 145px;
+    z-index: 99;
+}
+.quickMenuTip{float: left;height: 15px;position: absolute;right: 18px;top: -9px;width: 14px;background:url("/images/tip_up.png") no-repeat scroll 0 0 transparent!important}
+.quickMenu>ul{display: inline;float: left;width: 100%;padding:0;margin:0;}
+.quickMenu>ul>li{display: inline;list-style: none outside none;padding: 4% 12%;width: 76%;}
+.quickMenu>ul>li>a{float: left;margin: 0;padding: 0;width: 100%;}
+.quickMenu>ul>li>a>span:first-child{width: 23px;}
+.quickMenu>ul>li>a>span:last-child{float: left;width: 72px;margin-left:12px;}
+
+li#startArgumentWrapper{border: 0 none;margin: 0;padding: 0;float: right;width: 26.5%}
+li#startArgumentWrapper>.primaryButton{height: 36px;padding: 0 0 0 4%;width: 100%}
+#startArgument{line-height: 1.5em;text-align: center;width: 80%}
+
+#headerAbout,#headerContact{margin: 1.2% 0px; width: 10%;}
+#headerAbout a,#headerContact a{text-align: center; width: 100%; float: left;}
+#headerSignOn{float: right; width: 28%; padding: 0 1.5% 0 0;}
+#headerSignOn .signIn{float: left; text-align: center; border-right: 1px solid #C1B7AB; width: 30%;}
+#headerSignOn #createAccount{float: left; text-align: center;  border-right: 1px solid #C1B7AB; width: 68%;}
+
+#mainContainer{width: 980px;min-height: 600px;}
+
+/***************************************argument detailPage specific Styles****************************************************************************/
+#argumentDetailHead{border-bottom-style: solid;border-bottom-width: 1px;padding: 4.1% 6.2% 1.1%;width: 87.8%;}
+#argumentDetailHead .argumentTitle,#profileContentWrapper .argumentDescLongArg,#profileContentWrapper  .argumentDescShortArg,#profileContentWrapper .argumentCardTitle,#searchArgumentList .contentBody{
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;  /*non standard webkit browser*/
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+#argumentDetailHead .userProfile{width: 24.4%;}
+#argumentDetailHead #profileInfo{clear: left;}
+#argumentDetailHead #profileBasicInfo{position: relative;margin: 24px 0}
+#argumentDetailHead .customButtonWrapper{margin: 0;padding: 0 8px;width: 205px}
+#argumentDetailHead .customButtonWrapper span{float: left; text-align: left}
+.profileInfo .favIcon{margin: 7px 2px;padding: 0 2px 0 5px;}
+.favIcon{cursor: pointer}
+.favIcon>span{line-height: 20px;margin: 0 0 0 5px;}
+#argumentDetailHead #profileInfo{margin: 0}
+.argumenContent{clear: right;float:right;margin: 0 0 0 3.5%;padding: 0.6% 2.4% 1.2%;position: relative;width: 66.5%;}
+#argumentDetailHead #youText{margin: 10px 0 4px 3px}
+
+.argumenContent .argumentContentTipLeft{background: url("/images/tip-left-agrument-content.png") no-repeat scroll 0 0 transparent;height: 59px;left: -36px;position: absolute;top: 40px;width: 39px;max-height: 240px;}
+.argumenContent div.lockButton,.argumenContent div.favIcon,#argumentDetailHead .inviteIcon,#argumentDetailHead .editArgIcon{position: absolute; right: 10px; top: 7px;cursor: pointer}
+#argumentDetailHead .inviteIcon{right:35px}
+#argumentDetailHead .editArgIcon{right: 60px}
+#argumentDetailHead .argumentTitle{margin: 20px 0 10px}
+.timeagoTextFull{float: left;clear: left;}
+.timeagoTextFull .dataSource{margin: 0 0 0 5px;}
+.topicLableWrapper{background: url("/images/topic-Icon-Light.png") no-repeat scroll left center transparent;padding: 0 0 0 10px;}
+.topicLable{padding: 2px 10px;}
+.topicArgCount{background: none repeat scroll 0 0 #FFFFFF;border-style: solid;border-width: 2px 2px 2px 0;padding: 0 5px;}
+.shareToolBar{float: right;margin: 2% 0 0;width: 72%;}
+.shareToolBar>div{margin: 0 10px;float: left}
+.shareToolBar div.customFBShareButton{background: url("/images/fb_share.gif") no-repeat scroll 0 0 #ECEEF5;border: 1px solid #CAD4E7;color: #3B5998;cursor: pointer;float: left;height: 14px;margin: 0 6px 0 0;padding: 2px 12px;width: 33px;}
+.profileNotificationContainer,.profileActivityContainer{width:860px;padding:0;margin: 0;}
+.profileNotificationContainer>li,.profileActivityContainer>li{list-style: none;width: 860px;padding: 8px 0;border-bottom: 1px solid #f0e9e1;}
+#profileContentWrapper>.profileNotificationGroup,#profileContentWrapper>.profileActivityGroup{border: medium none; width: 860px; padding: 0pt; margin: 0pt 0pt 10px; height: auto; text-align: left;}
+#profileContentWrapper>.profileNotificationGroup>span,#profileContentWrapper>.profileActivityGroup>span{width: 860px; float: left; border-bottom: 1px solid;margin: 0}
+.notificationMsg .notificationArgumentLink{line-height: 20px; margin-left: 2px;float: none;}
+.notificationMsg {float: left; width: 677px;}
+.notificationMsg .notificationMsgText{float: none; line-height: 34px;margin: 0 5px;}
+.notificationMsg .profileUserName {font-family: Arimo;font-weight: bold;line-height: 32px;}
+.notificationMsg a.heading4Link{float:none;margin: 0px; line-height: 32px;}
+.notification .timeStamp{text-align: right; float: left; width: 140px;font-style: italic;}
+
+
+#currentArgumentDesc a{float: none;}
+
+/***********************************profile page specific styles********************************************************/
+#followButtonWrapper{margin: 20px 0 0;width: 115px;}
+.addressStats{width:82%;padding:0px;text-align:left;height: 30px}
+.othersStats{height: 48px;margin-left: 2px;margin-top: 5px;width: 100%;border-style: solid;border-width: 1px;}
+.statsInfoOthers{border: 1px solid #F0F0F0;padding-top: 1px;width: 32%;margin-top: 2.8px;border-top:0px;border-bottom:0px;}
+.statsInfoOthers .headingLight{float: left;text-align: center;width: 100%;}
+.headingLight{line-height: 20px;}
+.othersStatTitle{ width: 100%;margin:0px;text-align: center}
+.contentBody a{text-decoration:none;}
+#profileHead{padding: 60px;width: 860px}
+.userImgCircleFull{width: 180px;height: 180px;border: 0 none;display: inline;overflow: hidden;}
+#profileInfo{margin: 0 25px 0 30px}
+#profileBasicInfo .heading3Link{margin-bottom: 0}
+#profileBasicInfo h6.heading6{line-height: 30px;}
+#profileHead #profileBasicInfo address{width: 225px;}
+address i:first-child{height: 16px}
+address>span{line-height:18px;margin-left:4px;}
+#youText{margin: 23px 0 4px 3px;}
+
+#profileInfo > .followMember >span,#profileInfo > .unfollowMember >span {padding:2px 1px 2px 10px;float: left;}
+
+
+#editProfileButtonWrapper{margin:30px 0 0}
+#editProfileButton{padding: 2px 2px 0 10px;}
+.customButtonWrapper{margin: 32px 0 0 0;}
+
+#profileStatBoard{overflow: hidden;margin: 11px 0 0}
+.profileStatTitle{border-right:1px solid #d5cec6;border-bottom-right-radius:0;border-bottom-left-radius:0;width: 130px;height: 32px;line-height: 32px;margin: 0;}
+.profileStatTitle:last-child{border: 0 none}
+.pofilestatContent{border-right-style: solid;border-right-width: 1px;line-height: 48px;width: 130px;padding: 16px 0;-moz-border-radius: 0px; -webkit-border-radius: 0px;border-radius: 0px;}
+
+#profileNavMenu{padding: 15px 60px;width: 860px;border-width: 1px 0 1px 0; border-style: solid}
+#profileNavMenu ul li .counter{line-height: 18px;padding: 2px 5px;}
+#profileNavMenu ul li{margin: 0 4px;max-width: 140px;padding: 7px 5px 7px 7px;}
+#profileNavMenu a{margin: 0 10px;padding: 0 ;}
+#profileNavMenu ul li .counter{border-width: 1px;border-style: solid;line-height: 18px;padding: 2px 5px;}
+.activeMenu{border-color: #ded9d4;}
+
+#profileContentWrapper, #homepageWrapper{margin: 50px 60px;width: 860px}
+#welcomepageWrapper{margin: 15px 60px;}
+#profileContentWrapper>div.UserFollowInfo,#profileContentWrapper>div.longArgument,#profileContentWrapper>div.shortArgument{width: 27.68%;height: 317px;border-width: 1px;border-style: solid;padding: 1.17% 1% 1.17% 1.17%;margin: 0 4.7% 2.35% 0;}
+
+#profileContentWrapper>div:nth-child(3n){margin-right: 0}
+#profileContentWrapper>div.shortArgument{height: 250px;}
+#profileContentWrapper>.message{width:840px;border:none;text-align: center;}
+#profileContentWrapper.followingFeed>div, #profileContentWrapper.followersFeed>div{height:120px;}
+.shortArgument>div.contentBody{height:76px;line-height: 18px;cursor: pointer}
+.shortArgument .contentBody div:first-child{margin: 0 0 5px 0;}
+.longArgument>div.contentBody{cursor: pointer}
+.longArgument .contentBody div{margin: 5px 0}
+.contentBody{margin:10px 0;}
+.longArgument .contentHead,.shortArgument .contentHead,.UserFollowInfo .contentHead{width: 100%}
+.contentHead>p{line-height: 18px;margin: 0;width: 73%;position: relative;cursor: pointer}
+.profileActionText{margin: 11px 0 0 5px;}
+.profileUserName{margin: 0 5px 0 0;}
+.contentBody{height: 144px;width: 100;line-height: 24px; text-align: left;}
+.postContentActions{height:18px;padding: 3px 10px;}
+.postContentActions>a{float: left;width: 100%}
+
+.pofilestatContent>a>span>i{float: left; margin: 4px 5px;}
+.readMoreLink{margin: 0;}
+.postContentActions span.readMoreLinkWrapper{float: left; margin: 0px;}
+.postContentActions .readMoreLink+i.sprite-icon{float: right; margin: 2px 0px 0px 8px;}
+.postContentActions span.commentCount{margin: 0;float: right;}
+.postContentActions span.commentCount i.sprite-icon{float: left; margin: 4px 6px 0px 0px;}
+.postContentActions span.statCount{background: url("/images/statCount.png") no-repeat scroll left center transparent;margin: 0;padding: 0 0 0 17px;}
+.statDiv{padding: 10px 0}
+.userprofileInfo{display:none;}
+#profileBasicInfo .tipContent .followMember,#profileBasicInfo .tipContent .unfollowMember,#profileContentWrapper .followMember,#profileContentWrapper .unfollowMember{border-radius: 4px;box-shadow: none;height: 20px;padding: 0 2.5px;width: 25%;margin-top: 2.5px;float:right}
+#profileContentWrapper .followMember:hover{border: 1px solid #818A6D}
+#profileContentWrapper .unfollowMember:hover{border: 1px solid #D98164}
+
+
+/********** PopUp Styles *********/
+#backgroundPopup {background: none repeat scroll 0 0 #46322b;display: none;height: 100%;left: 0;position: fixed;top: 0;width: 100%;z-index: 9;}
+#popupWrapper{display:none;z-index:99;}
+#popupContainer{position: absolute;padding:21px 17px;border:6px solid #8d8482;border-radius:10px;background-color: #ffffff;}
+#popupContainer>.closex{position: absolute;top:0px;right:2px;cursor:pointer;background-position: -262px -110px;width:20px;height: 20px;}
+#popupContainer>.popupContent>h3:first-child{margin:0 0 14px 0;}
+.loginContainer,.creatAccountContainer{ width:210px;position: relative;}
+.loginContainer .primaryButton,.creatAccountContainer .primaryButton{width:210px;}
+.loginContainer .signInButton{width:75px}
+.loginContainer>form>fieldset>input,.creatAccountContainer>form>fieldset>input{width:178px;padding-left: 25px}
+.loginContainer>.divider,.creatAccountContainer>.divider{height: 1px;border-top-width: 1px;border-top-style:solid;position: relative;width:210px;margin:16px 0;}
+.loginContainer .loginActionContainer,.creatAccountContainer .createActionContainer{width:210px;padding-bottom:15px;border-bottom-width: 1px;border-bottom-style:solid}
+.loginContainer .loginActionContainer>a,.creatAccountContainer .createActionContainer>a{line-height: 32px}
+.loginContainer>.divider>span,.creatAccountContainer>.divider>span{position: relative;top: -.7em;background: white;display: inline-block;width:20px;}
+.accountActionContainer {margin-top: 15px}
+.accountActionContainer span.lable{font-family: Arimo;font-weight: normal;margin-right: 5px;}
+.toggleSignIn,.toggleSignUp{cursor: pointer}
+.startArgumentContainer{width:270px}
+.startArgumentContainer>h2{padding:0 0 0 5px;margin:0 0 14px 0;}
+.startArgumentContainer>label{width:260px;padding:0 0 3px 5px;}
+.startArgumentContainer>input,.startArgumentContainer>textarea {width:257px;margin-bottom:15px;}
+.startArgumentContainer>select{width:270px;margin-bottom:15px;}
+.startArgumentContainer>.primaryButton{/*width:155px;*/margin: 30px 0 0 0;}
+.updateComment,.disagreeing,.agreeing,.agreeingOwner,.disagreeingOwner,.agreeingDuplicate,.disagreeingDuplicate{width:271px;}
+#footerLoader{margin-bottom: 30px;margin-top: -25px;width: 980px;}
+#daMsgWrapper{position: fixed;padding:5px 0 5px 10px;border:1px solid #8d8482;border-radius:10px 0 0 10px;background-color: #ffffff;border-right:none;right: -100px;width: 80px;display: none;}
+#daMsgWrapper>.msgclosex{position: absolute;top:0px;right:2px;cursor:pointer;background-position: -269px -112px;width:15px;height: 12px;}
+#postArgumentFBCheck+label+span,#postAgreeFBCheck+label+span,#postDisagreeFBCheck+label+span,#updateCommentReplyFBCheck+label+span{float: left;margin: 0 15px 0 0;cursor: default;}
+#postArgumentTWCheck+label+span,#postAgreeTWCheck+label+span,#postDisagreeTWCheck+label+span,#updateCommentReplyTWCheck+label+span{float: left;cursor: default}
+.tbox{width:410px;height:175px;}
+#agreeCommentText,#disagreeCommentText{height: 114px;resize: none;margin: 5px 0 20px}
+#updateCommentReplyFBCheck+label,#updateCommentReplyTWCheck+label,#postArgumentFBCheck+label,#postAgreeFBCheck+label,#postDisagreeFBCheck+label,#postArgumentTWCheck+label,#postAgreeTWCheck+label,#postDisagreeTWCheck+label{float:left;margin: 2px 4px 0 0;width: 12px;height: 12px;border: 1px solid #A8A096;border-radius:  4px }
+#postAgree,#postDisagree,#updateCommentReply{margin: 30px 0px 0px; float: right;}
+.checkAvailability{text-align: center; width: 100%; display: block; margin: 5px 0px;float: left;height: 15px;}
+.checkAvailability img{margin: 0px 10px 0px 0px;}
+input[name='username']+i,#newUserName+i{position: absolute; left: 8px; top: 71px;}
+input[name='password']+i,#newUserPass+i{position: absolute; left: 8px; top: 134px;}
+input[name='email']+i,#newUserEmail+i{position: absolute; left: 8px; top: 195px;}
+
+
+/********* Homepage ********/
+#homepageWrapper{width:860px;}
+#aboutContainer{margin-top:20px;}
+#aboutContainer>ul{padding: 0;maring: 0;}
+#aboutContainer>ul>li{list-style: none;width:260px;padding-right: 40px;}
+#aboutContainer>ul>li:nth-child(3){padding-right: 0;}
+#aboutContainer>ul>li>div:first-child{width:260px;height: 260px;border-radius:150px;}
+#homeArgumentNav{margin-top:15px;padding: 15px 60px;width: 860px;border-width: 1px 0 1px 0; border-style: solid;position: relative;}
+#homeArgumentNav>ul{margin:0 177.5px;}
+#homeArgumentNav>ul>li {margin: 0 4px;max-width: 170px;padding: 5px 14px;}
+#homeArgumentNav a {margin:0px;}
+.hozontalMenuTopicList{margin:0;list-style: none;width:600px;left:-250px;top:40px;border-style: solid;border-width: 1px;border-color:#f0e9e1;display: none;position: absolute;z-index: 99;padding:0;}
+.hozontalMenuTopicList>ul{padding:5px;margin:0;list-style: none;}
+.hozontalMenuTopicList>ul>li{float: left;padding:1px 8px;width:100px;cursor: pointer;}
+.horizontalMenuTopicListTip{background: url("/images/tip_up.png") no-repeat scroll 0 0 transparent !important;float: left;height: 15px;position: absolute;right: 285px;top: -9px;width: 14px;}
+#homeArgumentNav>.active{display:block;}
+#searchNav{margin-top:15px;padding: 15px 60px;width: 860px;border-width: 1px 0 1px 0; border-style: solid;float: left;}
+#searchNav>ul{margin:0 341px;}
+#searchNav>ul>li {margin: 0 4px;max-width: 170px;padding: 5px 14px;}
+#searchNav a {margin:0px;}
+/*graphBox small for profile and Home pages*/
+.graphBox {height: 80px;position: relative;width: 240px;margin-top:12px;}
+.graphBox .circleMini {background:url("/images/sprite-graph.png") no-repeat scroll transparent;left: 80px;margin: 0;padding: 31px 0;position: absolute;width: 77px;z-index: 1;height: 18px;}
+.graphBox .AgreeButton,.graphBox .DisagreeButton{color: #FFFFFF;padding: 5px 0;position: relative;width: 73px;z-index: 9;}
+.graphBox .AgreeButton {margin: 25px 0 0 0;}
+.graphBox .DisagreeButton {margin: 25px 3px 0 0;}
+.graphBox .AgreeButton .agreeTip {background: url("/images/agreeTipSmall.png") no-repeat scroll 0 0 transparent;height: 22px;position: absolute;right: -9px;top: 4px;width: 12px;}
+.graphBox .DisagreeButton .disagreeTip {background: url("/images/disagreeTipSmall.png") no-repeat scroll 0 0 transparent;height: 22px;left: -9px;position: absolute;top: 3px;width: 12px;}
+.secondaryContainer>.actionCotainer{float:right;position:relative;top:-6px;display:none;}
+.secondaryContainer>.actionCotainer>span{padding-left:10px;cursor:pointer;}
+.secondaryContainer>.actionCotainer>span{padding-left:10px;cursor:pointer;}
+li.data-l>.reportArgument{float: right; position: relative; top: -5px; right: -5px;cursor:pointer;visibility:hidden;background:url('../images/spam-icon.png') no-repeat;width:18px;height: 10px;}
+li.data-r>.reportArgument{float: right; position: relative; top: -5px; right: -5px;cursor:pointer;visibility:hidden;background:url('../images/spam-icon.png') no-repeat;width:16px;height: 10px;}
+
+li.data-r .editCommentReply,li.data-l .editCommentReply{cursor:pointer;visibility:hidden}
+
+/*tooltip styles*/
+.DAtoolTip, .DAtoolTipLeft, .DAtoolTipRight{position: absolute;text-align: center;width:287px;z-index: 999;}
+.DAtoolTipUp, .DAtoolTipDown {position: absolute;text-align: center;width:265px;z-index: 999;}
+.DAtoolTipDown .tipContent, .DAtoolTipUp .tipContent, .DAtoolTipLeft .tipContent, .DAtoolTipRight .tipContent {border: 2px solid #CFC4B8;box-shadow: 0 2px 5px 0 rgba(96, 80, 59, 0.34), 0 2px 0 0 #FFFFFF inset;min-height: 70px;min-width: 70px;padding: 12px;cursor: default;}
+.DAtoolTipLeft > .tipContent,.DAtoolTipRight > .tipContent{ width: 240px;}
+.DAtoolTipDown > i {background: url("/images/tip-down-large-white.png") repeat scroll 0 0 transparent;height: 22px;margin: -2px 0 0 27px;position:relative;width: 39px;}
+.DAtoolTipUp > i {background: url("/images/tip-up-large-white.png") no-repeat scroll 0 0 transparent;height: 22px;margin: 0 0 -3px 27px;position: relative;width: 65px;}
+.DAtoolTipLeft > i {background: url("/images/tip-left-large-white.png") no-repeat scroll 0 0 transparent;height: 70px;margin: 30px -1px 0 0;position: relative;width: 22px;}
+.DAtoolTipRight > i {background: url("/images/tip-right-large-white.png") no-repeat scroll 0 0 transparent;height: 70px;margin: 30px 0 0 -1px;position: relative;width: 22px;}
+
+.tipContent .contentHead .contentBody.heading3,.UserFollowInfo .contentHead .contentBody.heading3{color: #8C9AA1;height: 24px;margin-bottom: 4px;margin-top: 0;text-decoration: none;width: 57%;}
+.tipContent .contentHead{width: 100%}
+.tipContent .othersStats ul.horizontalMenu li.statsInfoOthers a.headingLight ul.horizontalSearchMenu{color: #8C9AA1;width: 100%;}
+.newUserMsg{display:none;text-align: center;margin:0;}
+.startArgHandle{cursor: pointer}
+
+/** FB Popup CSS **/
+#fb-root{left:0;top:0;position: relative;}
+#fb-root>.fb_dialog_advanced{left:0 !important;}
+/*detail page*/
+
+.profileGraph {
+    float: left;
+    margin: 16px 60px 0 60px;
+}
+
+.agreesTip, .disagreesTip {
+    border: 1px solid #D6D0C9;
+    float: left;
+    margin: 27px 0 0;
+    width: 38.5%;
+}
+
+.graphCircleLarge {
+    background: none repeat scroll 0 0 #FEFAF0;
+    border-radius: 91px 91px 91px 91px;
+    box-shadow: 0 0 5px 5px #F0E9E1 inset;
+    float: left;
+    height: 182px;
+    margin: 0 6px;
+}
+
+.graphBoxLarge {
+    padding: 0px;/*7px with overlay div*/
+    height: 100%;
+    width: 181px;
+}
+
+.graphBoxLarge .circleLarge {
+    border-radius: 89px 89px 89px 89px;
+    height: 166px;
+    left: 8px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    top: 8px;
+    width: 166px;
+    z-index: 1;
+}
+#argumentTotalVoteCount{
+    padding-top: 60px;
+}
+.opinionCount {
+    color: #A8A096;
+    font-family: arimo;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.opinionText {
+    color: #A8A096;
+    font-family: arimo;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.agreesTip > div, .disagreesTip > div {
+    border-bottom: 0 none transparent;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #FFFFFF;
+    font-family: arimo;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+}
+
+.agreesTip > div {
+    border: 1px solid #818A6D;
+    box-shadow: 0 2px 0 #BFCCA1 inset;
+}
+
+.disagreesTip > div {
+    border: 1px solid #D98164;
+    box-shadow: 0 2px 0 #FFB096 inset;
+}
+
+.agreeStats, .disAgreeStats {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.agreeStats > li, .disAgreeStats > li {
+    float: left;
+    font-family: aller;
+    font-weight: bold;
+    padding: 12px 2px 16px 3px;
+    text-align: center;
+    width: 23.2%;
+}
+#agreeTotalPercentage,#disagreeTotalPercentage{
+    line-height: 36px;
+}
+#agreeTotalPercentage.fontsmall,#disagreeTotalPercentage.fontsmall{
+    float: left;
+}
+
+.agreeStats .agreedPercentage, .disAgreeStats .disAgreedPercentage {
+    font-size: 32px;
+    height: 36px;
+    overflow: hidden;
+    text-align: center;
+    width: 23.2%;
+}
+
+
+.agreeStats .maleAgreed, .disAgreeStats .maleDisagreed {    border-left: 1px solid #F0E9E1;
+}
+
+.agreeStats .femaleAgreed, .disAgreeStats .femaleDisagreed {
+    border-right: 1px solid #F0E9E1;
+}
+
+.agreeStats .slaneLine, .disAgreeStats .slaneLine {
+    -moz-transform: rotate(-10deg);
+    background: none repeat scroll 0 0 #F0E9E1;
+    float: left;
+    height: 46px;
+    margin: 12px 0;
+    padding: 0;
+    width: 1px;
+}
+
+.showVotes{cursor: pointer}
+.graphBoxLarge.showVotes{border-radius: 90px}
+
+.profileGraph .textSmallBold {
+    float: left;
+    margin: 0 0 7px;
+    padding: 0 18px;
+}
+
+.profileGraph .textSmallBold i {
+    float: left;
+    padding: 0 0 0 5px;
+}
+.profileGraph .totalAgreed .textSmallBold,.profileGraph .totalDisagreed .textSmallBold{
+    line-height: 17px;
+}
+
+.maleAgreed .textSmallBold, .maleDisagreed .textSmallBold {
+    padding: 0 14px;
+}
+
+.femaleAgreed .textSmallBold, .femaleDisagreed .textSmallBold {
+    padding: 0 10px;
+}
+
+.agreeStats .tipAgree {
+    background: url("/images/tip-left-large.png") no-repeat scroll 0 0 transparent;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -21px;
+    top: 10px;
+    width: 27px;
+    z-index: 9;
+}
+
+.disAgreeStats .tipDisagree {
+    background: url("/images/tip-right-large.png") no-repeat scroll 0 0 transparent;
+    height: 40px;
+    left: -23px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    width: 27px;
+    z-index: 9;
+}
+
+.overlay {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGU5ZTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #f0e9e1 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f0e9e1));
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #f0e9e1 100%);
+    background-image: -o-linear-gradient(top, #ffffff 0%, #f0e9e1 100%);
+    background-image: -ms-linear-gradient(top, #ffffff 0%, #f0e9e1 100%);
+    background-image: linear-gradient(top, #ffffff 0%, #f0e9e1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#f0e9e1', GradientType = 0);
+
+    border: 1px solid #F0E9E1;
+    border-radius: 86px 86px 86px 86px;
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.31), 0 0 1px 0 #FFFFFF inset;
+    position: relative;
+    z-index: 8;
+}
+
+.graphContent {
+    float: left;
+    position: relative;
+    height: auto;
+    width: 100%
+}
+
+.timeLine_l, .timeLine_r {
+    float: left;
+    width: 424px;
+}
+
+.graphContent .noCommets .timelineArgument span{float: left;margin: 15px;text-align: center;}
+
+.timelineBar {
+    background-color: #FEFAF0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0 0 5px 0 #F0E9E1 inset;
+    float: left;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 425px;
+    width: 12px;
+}
+
+.voteBadge {
+    height: 35px;
+    left: 325px;
+    position: absolute;
+    top: 16px;
+    width: 213px;
+}
+
+.voteBadge button {
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    width: 105px;
+}
+
+.voteBadge .agreementGradient {
+    float:left;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.voteBadge .disagreementGradient {
+    float: left;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.voteBadge div {
+    background: url("/images/orButton.jpg") no-repeat scroll 0 1px transparent;
+    height: 33px;
+    left: 94px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.graphContent>ul {
+    float: left;
+    list-style-type: none;
+    margin: 72px 0 0;
+    padding: 0;
+    width: 860px;
+}
+
+.data-l {
+    border: 1px solid #F0E9E1;
+    clear: left;
+    float: left;
+    margin: 7px 0;
+    padding: 10px 9px 10px 19px;
+    position: relative;
+}
+
+.data-r {
+    border: 1px solid #F0E9E1;
+    clear: right;
+    float: right;
+    margin: 7px 0;
+    padding: 10px 9px 10px 19px;
+    position: relative;
+}
+
+.timelineArgument {
+    float: left;
+    width: 333px;
+}
+
+.timelineArgument .argumentHead,.votedUserDisplayBox .argumentHead, #SocialMediaContentHolder .argumentHead, #invitePopUp .argumentHead{
+    float: left;
+    margin: 0;
+}
+
+.timelineArgument .argumentHead .username, .votedUserDisplayBox .argumentHead .username, #SocialMediaContentHolder  .argumentHead .username,#invitePopUp .argumentHead .username{
+    font-weight: bold;
+    margin: 0;
+}
+
+.timelineArgument .argumentHead .username+span,.votedUserDisplayBox .argumentHead .username+span,.voteActionString,#SocialMediaContentHolder .voteActionString{
+    clear: right;
+    float: left;
+    line-height: 14px;
+}
+
+.timelineArgument .argumentHead .timeStamp,.votedUserDisplayBox .argumentHead .timeStamp,#SocialMediaContentHolder .argumentHead .timeStamp{
+    float: left;
+    font-style: italic;
+    text-align: left;
+    width: 290px;
+}
+
+.timelineArgument .argumentContent {
+    float: left;
+    margin: 11px 0 16px;
+    text-align: left;
+}
+
+.timelineArgument .replyBox {
+    background: none repeat scroll 0 0 #F0E9E1;
+    border-radius: 6px 6px 6px 6px;
+    display: block;
+    float: left;
+    line-height: 12px;
+    padding: 8px 10px 5px;
+    width: 320px;
+}
+
+.timelineArgument .replyBox .addReplyLink.off,.timelineArgument .replyBox .addReplyLink.on{
+    float: left;
+}
+
+.timelineArgument .replyBox .addReplyLink.off i,.timelineArgument .replyBox .addReplyLink.on i {
+    float: right;
+    margin: 0 0 0 4px;
+}
+
+.timelineArgument .replyBox .showReplyLink.off,.timelineArgument .replyBox .showReplyLink.on {
+    float: right;
+}
+
+.timelineArgument .replyBox .showReplyLink.off i,.timelineArgument .replyBox .showReplyLink.on i {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.data-l .timelineTip {
+    background: url("/images/tip-left-timeline.png") no-repeat scroll 0 0 transparent;
+    height: 39px;
+    position: absolute;
+    right: -62px;
+    top: 15px;
+    width: 66px;
+}
+
+.data-r .timelineTip {
+    background: url("/images/tip-right-timeline.png") no-repeat scroll 0 0 transparent;
+    height: 39px;
+    left: -60px;
+    position: absolute;
+    top: 15px;
+    width: 66px;
+}
+
+.replyContentWrapper {
+    border-top: 1px solid #D7D0C7;
+    display: none;
+    float: left;
+    margin: 7px 0 0;
+    padding: 5px 0 0;
+    width: 100%
+}
+
+
+.replyTextArea {
+    /*height: 85px;*/
+    overflow: hidden;
+    width: 310px;
+
+}
+
+.postLinks {
+    float: left;
+    padding: 10px 0 0;
+}
+
+#postArgumentFBCheck+label, #postArgumentTWCheck+label {
+    float: left;
+    margin: 1px 5px 0 0;
+}
+
+#postArgumentFBCheck+label+label, #postArgumentTWCheck+label+label {
+    float: left;
+    line-height: 13px;
+    margin: 0 25px 0 0;
+}
+
+.replyContentWrapper .replyActions {
+    float: left;
+    margin: 20px 0 10px;
+    width: 320px;
+}
+
+.replyContentWrapper .replyActions button {
+    float: left;
+}
+
+.replyContentWrapper .replyActions .cancelReply {
+    float: right;
+    line-height: 32px
+}
+
+.timelineArgument .replyContentWrapper .timeStamp {
+    width: 250px;
+}
+.replyContentWrapper .userActions{position: absolute; top: 15px; right: 0px;}
+.commentReply {
+    border-top: 1px solid #D7D0C7;
+    float: left;
+    padding: 15px 0 0;
+    position: relative;
+}
+
+.replyContentWrapper>.commentReply:first-child {
+    border: 0 none;
+    padding: 0
+}
+/*
+.profileGraph {
+    float: left;
+    margin: 16px 60px 0 60px;
+}
+
+.agreesTip, .disagreesTip {
+    border: 1px solid #D6D0C9;
+    float: left;
+    margin: 27px 0 0;
+    min-width: 331px;
+}
+
+.graphCircleLarge {
+    background: none repeat scroll 0 0 #FEFAF0;
+    border-radius: 91px 91px 91px 91px;
+    box-shadow: 0 0 5px 5px #F0E9E1 inset;
+    float: left;
+    height: 182px;
+    margin: 0 6px;
+}
+
+.graphBoxLarge {
+    padding:8px;
+}
+
+.graphBoxLarge .circleLarge {
+    border-radius: 89px 89px 89px 89px;
+    height: 106px;
+    margin: 0;
+    padding: 60px 0 0;
+    position: relative;
+    text-align: center;
+    width: 166px;
+    z-index: 1;
+}
+
+.opinionCount {
+    margin: 0;
+    padding: 0;
+}
+
+.opinionText {
+    color: #A8A096;
+    font-family: arimo;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.agreesTip > div, .disagreesTip > div {
+    border-bottom: 0 none transparent;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #FFFFFF;
+    font-family: arimo;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+}
+
+.agreesTip > div {
+    border: 1px solid #818A6D;
+    box-shadow: 0 2px 0 #BFCCA1 inset;
+}
+
+.disagreesTip > div {
+    border: 1px solid #D98164;
+    box-shadow: 0 2px 0 #FFB096 inset;
+}
+
+.agreeStats, .disAgreeStats {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.agreeStats > li, .disAgreeStats > li {
+    float: left;
+    font-family: aller;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 0 16px;
+    text-align: center;
+    width: 77px;
+}
+
+.agreeStats .agreedPercentage, .disAgreeStats .disAgreedPercentage {
+    font-size: 48px;
+    width: 97px;
+}
+
+.agreeStats .agreedPercentage sup, .disAgreeStats .disAgreedPercentage sup {
+    font-size: 18px;
+}
+
+.agreeStats .maleAgreed, .disAgreeStats .maleDisagreed {
+    border-left: 1px solid #F0E9E1;
+}
+
+.agreeStats .femaleAgreed, .disAgreeStats .femaleDisagreed {
+    border-right: 1px solid #F0E9E1;
+}
+
+.agreeStats .slaneLine, .disAgreeStats .slaneLine {
+    -moz-transform: rotate(-10deg);
+    background: none repeat scroll 0 0 #F0E9E1;
+    float: left;
+    height: 46px;
+    margin: 12px 0;
+    padding: 0;
+    width: 1px;
+}
+
+.profileGraph .textSmallBold {
+    float: left;
+    line-height: 17px;
+    margin: 0 0 7px;
+    padding: 0 18px;
+}
+
+.profileGraph .textSmallBold i {
+    float: left;
+    padding: 0 0 0 5px;
+}
+
+.maleAgreed .textSmallBold, .maleDisagreed .textSmallBold {
+    padding: 0 14px;
+}
+
+.femaleAgreed .textSmallBold, .femaleDisagreed .textSmallBold {
+    padding: 0 10px;
+}
+
+.agreeStats .tipAgree {
+    background: url("/images/tip-left-large.png") no-repeat scroll 0 0 transparent;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: -21px;
+    top: 10px;
+    width: 27px;
+    z-index: 9;
+}
+
+.disAgreeStats .tipDisagree {
+    background: url("/images/tip-right-large.png") no-repeat scroll 0 0 transparent;
+    height: 40px;
+    left: -23px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    width: 27px;
+    z-index: 9;
+}
+.overlay{
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGU5ZTEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background-image: -moz-linear-gradient(top,  #ffffff 0%, #f0e9e1 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f0e9e1));
+    background-image: -webkit-linear-gradient(top,  #ffffff 0%,#f0e9e1 100%);
+    background-image: -o-linear-gradient(top,  #ffffff 0%,#f0e9e1 100%);
+    background-image: -ms-linear-gradient(top,  #ffffff 0%,#f0e9e1 100%);
+    background-image: linear-gradient(top,  #ffffff 0%,#f0e9e1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0e9e1',GradientType=0 );
+
+    border: 1px solid #F0E9E1;
+    border-radius: 86px 86px 86px 86px;
+    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.31), 0 0 1px 0 #FFFFFF inset;
+    position: relative;
+    z-index: 8;
+}*/
+/*#forgetPassForm,#forgetPassEmail{width: 210px;}*/
+#forgetPassEmail{margin: 0 0 15px;width: 210px}
+#forgetPassSubmitWrapper{float:none;}
+#forgetPassSubmit{width: 222px;margin:0;clear: both;}
+#forgetPassSubmit+p{float: left; text-align: center; width: 222px;clear: both;}
+.passResetPage{margin: 0 30px;width: 515px;}
+.formCaption{float: left;line-height: 28px;margin: 10px 20px 0 0;text-align: left;width: 135px;}
+.formPlaceholder{float: left;margin: 10px 0;width: 250px;}
+.passResetPage>.form>fieldset>.formPlaceholder:last-child{text-align: right; width: 280px;}
+.passResetPage>.form>fieldset>.formPlaceholder:last-child>input{float:none;}
+#footer{margin: 0 0 30px;width: 980px;}
+#footerMenu{margin: 20px 0 0 19px;width: 940px;}
+#footerMenu>li{border-right: 1px solid #C1B7AB;margin: 10px 0 0;padding: 0 16px}
+#footerMenu>li.last{border-right: none;}
+#footerMenu>li#SuggestionBoxWrapper{margin: 4px 0px 0px;width: 27%}
+#SuggestionBox {font-size: 10px;font-style: italic;padding: 0 9px;width: 99%;}
+#SuggestionBoxWrapper .suggestionSuccessMessage{float: left; line-height: 28px;display: none}
+#footerMenu>li:last-child{float:right;border-right:none;}
+/*custom scroll*/
+.replyContentWrapper{position: relative;}
+.wrapperData>.commentReply:first-child{border: 0 none}
+.scrollbar_track{
+    background-color: #FEFAEF;
+    border: 1px solid #D7D0C7;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 0 0 0 rgba(255, 255, 255, 0.44), 2px 0 4px #F0E9E1 inset;
+    cursor: default;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 8px;
+}
+.scrollbar_handle{
+    border: 1px solid #768187;
+    cursor: default;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 0 2px #495154, 2px 2px 2px #ADBEC7 inset;
+    background: #a2b2ba; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a2b2ba 0%, #8c9aa1 50%, #768187 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a2b2ba), color-stop(50%,#8c9aa1), color-stop(100%,#768187)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a2b2ba 0%,#8c9aa1 50%,#768187 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a2b2ba 0%,#8c9aa1 50%,#768187 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a2b2ba 0%,#8c9aa1 50%,#768187 100%); /* IE10+ */
+    background: linear-gradient(top,  #a2b2ba 0%,#8c9aa1 50%,#768187 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2b2ba', endColorstr='#768187',GradientType=0 ); /* IE6-9 */
+}
+.wrapperData{
+    max-height: 369px;
+    overflow: hidden;
+    width: 320px;
+}
+/*custom select box*/
+.cscrollbar_container_wrapper{float: left;height: 30px;margin-bottom: 15px;position: relative;width: 270px;}
+.cscrollbar_container {border: 1px solid #F0E9E1;border-radius: 6px;box-shadow: 1px 0 0 #FFFFFF, 0 2px 4px #F0E9E1 inset;color: #46322B;position: absolute;}
+.cscrollbar_track {background: transparent;border: 1px solid transparent;border-radius: 6px;cursor: pointer;height: 100%;overflow-y: hidden;position: absolute;right: -1px;top: -1px;width: 8px;z-index: 5}
+.cscrollbar_handle {border: 1px solid #768187;cursor: pointer;border-radius: 6px 6px 6px 6px;box-shadow: 0 0 2px #495154, 2px 2px 2px #ADBEC7 inset;z-index: 5;
+    background: #a2b2ba; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a2b2ba 0%, #8c9aa1 50%, #768187 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a2b2ba), color-stop(50%,#8c9aa1), color-stop(100%,#768187)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a2b2ba 0%,#8c9aa1 50%,#768187 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a2b2ba 0%,#8c9aa1 50%,#768187 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a2b2ba 0%,#8c9aa1 50%,#768187 100%); /* IE10+ */
+    background: linear-gradient(top,  #a2b2ba 0%,#8c9aa1 50%,#768187 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2b2ba', endColorstr='#768187',GradientType=0 ); /* IE6-9 */
+}
+.cscrollbar_content {border-radius: 6px;height: 90px;margin: 0;overflow: hidden;padding: 0;width: 270px;z-index: 4}
+.cscrollbar_content:hover{box-shadow: 2px 2px 5px #A8A096;}
+.cscrollbar_content li {cursor: pointer;display: none;height: 30px;line-height: 30px;list-style: none outside none;padding: 0 0 0 15px;width: 95%;z-index: 4}
+.cSelectOption.cDefaultSelectedOption{display: inline}
+.activeMenu .cSelectOption:hover,.activeOption{background: #8c9aa1}
+.cscrollbar_container li:hover {position:relative;z-index: 4}
+.cSelectBoxHandle{cursor:pointer;position: absolute; width: 9px; right: 10px; padding-left: 5px; height: 20px; top: 5px; background: url("/images/select_box_icon.png") no-repeat scroll right center transparent; border-left: 1px solid #F0E9E1;z-index: 9}
+
+/*iphone style checkbox styles*/
+#genderCheck {float: left;line-height: 27px;margin: 0 0 15px;}
+div#itoggle {background: none repeat scroll 0 0 #FFFFFF;color: #333333;float: left;padding: 0;}
+div#itoggle input.iT_checkbox_on{display:block !important;float:left;position:relative !important;top:-43px !important;left:100px !important;margin-bottom:-43px;}
+div#itoggle label.ilabel {cursor: pointer;display: block;float: left;font-size: 12px;width: 60px;}
+div#itoggle label.itoggle, div#itoggle label.itoggle span {background: url("../images/itoggle_DA.png") no-repeat scroll left bottom transparent;cursor: pointer;display: block;float: left;height: 27px;text-indent: -5000px;width: 93px;}
+div#itoggle label.itoggle.iToff{background-position:right bottom;}
+div#itoggle label.itoggle span{background-position: left top;margin: 0;}
+div#itoggle input.iT_checkbox{left: -9999px;position: absolute;top: -9999px;}
+/*edie Profile Page styles*/
+.heading {clear: both;}
+.heading h1, h5 {margin: 0;}
+#editProfile{float: left;width: 650px;}
+#editProfileContainer {margin: 60px;float: left;}
+#editProfileBody {padding: 30px 0 0 0;float: left;}
+
+#profilePicSection {float: left;height: 100%;}
+#changeProfilePicWrapper {clear: left;float: left;padding: 15px 0 0;}
+#imageAjax{float: left; display: block; position: relative; overflow: hidden; width: 180px; height: 35px;}
+#imgFileHolder{cursor: pointer;height: 32px;left: -150px;opacity: 0;position: absolute;text-align: right;top: 0;width: 330px;z-index: 2;}
+button#changeProfilePic{cursor: pointer;left: 0;position: absolute;top: 0;width: 180px;z-index: 1;padding:5px 10px}
+
+#profileInfoSection {float: left;margin: 5px 60px;/*width: 380px;*/}
+.formRecord {float: left;margin: 5px auto;width: 500px}
+.formRecord .formLabel {float: left;margin-right: 20px;line-height: 30px;width: 160px;text-align: right;}
+.formElement #notificationFlag+label{margin: 10px 0 0 0}
+.formElement {float: left;}
+.formElement input, .formElement select, .formElement textarea, .formElement ul, .formElement li{float: left;width: 278px;}
+#updateProfile{padding: 0;color: #FFFFFF;cursor: pointer;}
+
+#initChangePW,#editProfile .topicListSelector{float: left; width: 290px}
+#geoLocation{float: left; margin: 10px; cursor: pointer;}
+#interestsWrapper{width:320px}
+#interestsWrapper>span{float: left; width: 106px; height: 14px; line-height: 14px; margin: 5px 0px;}
+#interestsWrapper>span>label{float: left; margin-right: 5px; height: 14px;}
+
+/*DA site template over rides*/
+.ui-datepicker-calendar a{float: none!important;}
+#ui-datepicker-div select{padding: 1px;border: 0 inset #f0f0f0;box-shadow: none;border-radius: 0;background: #ffffff;color: #000000;opacity: 1}
+#ui-datepicker-div select option{color: #000000!important;}
+
+#staticMenuContainer{width:240px;border-right: 1px solid #f0e9e1;}
+#staticMenu{list-style: none;padding:0;margin:0;}
+#staticMenu>li{list-style: none;width:199px;padding:0px;margin:5px 0;cursor: pointer;}
+#staticMenu>li.active{cursor:default;}
+#staticMenu>li>span{padding:6px 10px;float: left;}
+#staticContent{padding:0 0 0 25px;width:594px;float:left;}
+#twInviteContainer>input{width: 200px;margin-right:20px;float: left;}
+#staticContent .memberSection{float:left;width:240px;padding:10px;border-width:1px;border-style:solid;margin-left:35px;margin-bottom:20px;}
+#staticContent .memberSection>button{float: right;width: 75px;height: 26px;margin-top:5px;}
+#staticContent>#emailInviteContainer>div{width:350px;float:left;}
+#emailInviteContainer>div>textarea{width:340px;margin:0 10px 10px 0;float:left;}
+#emailInviteContainer>div>.label{width:340px;margin:0 10px 10px 0;float:left;padding:0 0 0 7px;}
+#emailInviteContainer>div>input{width:340px;}
+#emailInviteContainer>div>button{float:right;}
+/** Message **/
+#messageContainer{border:2px solid #f28f6f;border-top:none;border-radius:0 0 10px 10px;float:left;padding:15px 10px 10px 15px;box-shadow:0 0 2px 0 #495154;position: fixed;top: 0;display: none;z-index: 10;cursor: pointer;}
+#messageContainer>.daLogo{padding:0 5px; float: left;}
+#messageContainer>.daMessage{float: left; max-width: 340px; margin:0 10px;}
+#messageContainer>.closeSmallIconG{clear:both;float:right;cursor: pointer}
+.errorNotification{
+    background: #db6565;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RiNjU2NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2MxNTg1OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhODRkNGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #db6565 0%, #c15858 50%, #a84d4d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#db6565), color-stop(50%,#c15858), color-stop(100%,#a84d4d));
+    background: -webkit-linear-gradient(top,  #db6565 0%,#c15858 50%,#a84d4d 100%);
+    background: -o-linear-gradient(top,  #db6565 0%,#c15858 50%,#a84d4d 100%);
+    background: -ms-linear-gradient(top,  #db6565 0%,#c15858 50%,#a84d4d 100%);
+    background: linear-gradient(to bottom,  #db6565 0%,#c15858 50%,#a84d4d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db6565', endColorstr='#a84d4d',GradientType=0 );
+    -webkit-box-shadow:  0px 2px 0px 0px #8f4242,inset 0px 2px 0px 0px #f57171;
+    box-shadow:  0px 2px 0px 0px #8f4242,inset 0px 2px 0px 0px #f57171;
+    border: 1px solid #a84d4d;
+    width: 255px;
+    padding: 25px;
+    color: #ffffff;
+}
+.sucessNotification{
+    background: #748f74;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc0OGY3NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzg5YTk4OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3NDhmNzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #9dc29d 0%, #89a989 50%, #748f74 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9dc29d), color-stop(50%,#89a989), color-stop(100%,#748f74));
+    background: -webkit-linear-gradient(top,  #9dc29d 0%,#89a989 50%,#748f74 100%);
+    background: -o-linear-gradient(top,  #9dc29d 0%,#89a989 50%,#748f74 100%);
+    background: -ms-linear-gradient(top,  #9dc29d 0%,#89a989 50%,#748f74 100%);
+    background: linear-gradient(to bottom,  #9dc29d 0%,#89a989 50%,#748f74 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dc29d', endColorstr='#748f74',GradientType=0 );
+    -webkit-box-shadow: 0px 2px 2px 0px #515744,inset 0px 2px 0px 0px #b4d6b4;
+    box-shadow: 0px 2px 2px 0px #515744,inset 0px 2px 0px 0px #b4d6b4;
+    border: 1px solid #748f74;
+    width: 255px;
+    padding: 25px;
+    color: #ffffff;
+}
+.messageNotification{
+    background: #ffd875;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDg3NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YyYzI2ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkOWFlNjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #ffd875 0%, #f2c26f 50%, #d9ae64 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd875), color-stop(50%,#f2c26f), color-stop(100%,#d9ae64));
+    background: -webkit-linear-gradient(top,  #ffd875 0%,#f2c26f 50%,#d9ae64 100%);
+    background: -o-linear-gradient(top,  #ffd875 0%,#f2c26f 50%,#d9ae64 100%);
+    background: -ms-linear-gradient(top,  #ffd875 0%,#f2c26f 50%,#d9ae64 100%);
+    background: linear-gradient(to bottom,  #ffd875 0%,#f2c26f 50%,#d9ae64 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd875', endColorstr='#d9ae64',GradientType=0 );
+    border: 1px solid #dbb065;
+    -webkit-box-shadow:  0px 2px 2px 0px #bf9958,inset 0px 2px 0px 0px #ffdf8f;
+    box-shadow:  0px 2px 2px 0px #bf9958,inset 0px 2px 0px 0px #ffdf8f;
+    width: 255px;
+    padding: 25px;
+    color: #ffffff;
+}
+
+/*contact us*/
+#contactBody{float: left;}
+#contactHeadText h1{margin-top: 0px;}
+#contactHeadText h3{float: left; margin: 0px 0px 20px;}
+#contactform{width: 560px; float: left;}
+#contactformSection{margin: 0px;}
+#altcontact{float: left; width: 100%; border-top: 1px solid; margin: 15px 0px 0px;}
+#altcontacttop{float: left; width: 450px; margin: 20px 0px 10px;}
+#altcontacttop p{float: left; text-align: right; margin: 7px 12px 15px 0px;}
+#altcontacttop h2{float: left; margin: 0px; width: 360px;}
+#altcontactmiddle{float: left; width: 450px; margin: 10px 0px;}
+#altcontactmiddle p{float: left; text-align: right; margin: 7px 12px 15px 0px;}
+#altcontactmiddle h2{float: left; margin: 0px; width: 360px;}
+#altcontactbottom{float: right; margin: 20px 0px;}
+#privacyContent h2, #privacycontent ul, #termsContent h2, ul, #aboutusContent h2, #aboutusHead h1, #aboutusHead h2, #aboutusHead ul{margin-top:0;}
+#staticContent a { color:#46322B; float: none;}
+#homeArgumentNav,#profileNavMenu{border-style: solid;border-width: 1px 0;float: left;margin-top: 5px;overflow-x: visible;padding: 15px 0;position: relative;width: 100%;}
+#homeArgumentNav ul.horizontalMenu,#profileNavMenu ul.horizontalMenu{clear:left;float:left;list-style:none;margin:0;padding:0;position:relative;left:50%;text-align:center;}
+#homeArgumentNav > ul > li,#profileNavMenu > ul > li {margin: 0 4px;max-width: 170px;padding: 5px 14px;display:block;float:left;list-style:none;position:relative;right:50%;}
+
+#imageCropWindow>h3{margin:0 !important;}
+#imageCropWindow>span{float: left;}
+#imageCropWindow>#imageContainer{clear:left;float: left;margin-top:20px;}
+#imageCropWindow>#croppedThumb{border:1px #e5e5e5 solid; float:left; position:relative; overflow:hidden; width:100px; height:100px;margin-left:20px;margin-top:20px;}
+#imageCropWindow>#saveThumb>button{margin-left: 20px;margin-top:10px;}
+
+.votedUserDisplayBox{/*display: block;float: left;*/width: 480px;}
+#votesPopupContentWrapper{max-height: 511px;overflow: hidden;width: 480px;}
+#votesPopUp{position:relative;width:500px;}
+.votedUserDisplayBox .votersList{border-style: solid;border-width: 2px 0 0;clear: both;float: left;}
+.agreeVotes,.disagreeVotes{float: left;width: 238px;}
+.votedUserDisplayBox .votersList p.argumentHead:nth-child(2n+1){border-style: solid;border-width:0 2px 2px;clear: left;float: left;padding: 6px 15px 10px 6px;position: relative;width: 215px;}
+.votedUserDisplayBox .votersList p.argumentHead:nth-child(2n){border-style: solid;border-width: 0 2px 2px 0;clear: right;float: left;padding: 6px 15px 10px 6px;position: relative;width: 215px;}
+.votedUserDisplayBox .votersList .agreeVotes>p.argumentHead,.votedUserDisplayBox .votersList .disagreeVotes>p.argumentHead{border-style: solid;border-width: 0px 2px 2px;}
+.votedUserDisplayBox .votersList .argumentHead .timeStamp{width: 170px;}
+.votedUserDisplayBox .headText{float: left;margin: 0 0 5px;}
+.votedUserDisplayBox .headText h3{float: left;margin: 0;width: 240px;}
+.votersList .commentLink i{position: absolute;right: 7px;top: 5px;}
+
+/*invite user to argument popup styles*/
+#invitePopUp{width: 476px;float: left;}
+#invitePopUp .headText{border-style: solid;border-width: 0 0 2px;float: left;width: 476px;padding: 0 0 10px;}
+#invitePopUp .headText h3{margin: 0;float: left;}
+.userSearchBoxWrapper{float: right;position: relative;}
+.userSearchBoxWrapper i{left: 10px;position: absolute;top: 6px;}
+.userSearchBoxWrapper input{font-weight: bold;height: 27px;padding: 0 0 0 25px;width: 100px;}
+#invitePopUp p.selectAllBox{float: right;line-height: 30px;margin: 10px 25px 0 0;position: relative;width: 73px;}
+#invitePopUp p.selectAllBox label{border: 1px solid #F0E9E1; border-radius: 3px 3px 3px 3px; height: 12px; width: 12px;margin: 8px 0 0;}
+#invitePopUp form.suggestArgument{float:left}
+#invitePopupContentWrapper{float:left;position:relative;}
+#suggestArgumentContent{overflow:hidden;max-height:318px}
+#suggestArgumentContent input[type='checkbox']+label{border: 1px solid #F0E9E1;border-radius: 3px 3px 3px 3px;height: 12px;position: absolute;right: 10px;top: 18px;width: 12px;}
+#invitePopUp .argumentHead {border-style: solid;border-width: 0 0 2px 2px;float: left;margin: 0;padding: 6px 15px 10px 6px;position: relative;width: 214px;}
+#invitePopUp p.argumentHead:nth-child(2n+1){border-right-width: 2px}
+#invitePopUp p.argumentHead:nth-child(2n){border-left-width:0px;border-right-width:2px}
+#invitePopUp a.username{width: 150px}
+#invitePopUp input[type='checkbox']+label{float: right;}
+#invitePopUp .addressStats{float: left;height: 15px;margin: 5px 0 0;width: 150px}
+#invitePopUp .addressStats span{float: left;margin: 0 0 0 4px;}
+#inviteUsersToArgument{clear: both; float: right; margin: 10px 0px 0px;width: 120px}
+/*social media Box*/
+#SocialMediaBox{float: left;width: 100%;position: relative;}
+#SocialMediaTabCloseAction{float: right; }
+#SocialMediaTabCloseAction span{float: left;margin: 5px 20px 0 0;cursor: pointer}
+#SocialMediaBoxHide{display: none;margin: 15px 20px 0 0}
+#SocialMediaSwitchAction{
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0;
+    display: none;
+    font-family: comic sans ms;
+    left: -53px;
+    overflow: hidden;
+    position: absolute;
+    top: 75px;
+    width: 53px;
+}
+#SocialMediaBoxSwitchFacebook{
+    border-radius: 12px 0 0 12px;
+    -webkit-border-radius: 12px 0 0 12px;
+    -moz-border-radius: 12px 0 0 12px;
+    color: transparent;
+    cursor: pointer;
+    display: none;
+    font-size: 45px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 13px;
+    padding: 15px 0 15px 15px;
+    text-align: left;
+    width: 38px;
+}
+#SocialMediaBoxSwitchTwitter{
+    border-radius: 12px 0 0 12px;
+    -webkit-border-radius: 12px 0 0 12px;
+    -moz-border-radius: 12px 0 0 12px;
+    color: transparent;
+    cursor: pointer;
+    display: none;
+    font-size: 45px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 13px;
+    padding: 15px 0 15px 15px;
+    text-align: left;
+    width: 38px;
+}
+#SocialMediaBoxSwitchFacebook.activeSwitch,#SocialMediaBoxSwitchTwitter.activeSwitch{background: none repeat scroll 0 0 #FFFFFF}
+#SocialMediaBoxBody{float: left; width: 100%; display: none;}
+#SocialMediaTabHeading{float: left; width: 100%;}
+#SocialMediaTabHeading h1{text-align: center;}
+#SocialMediaContentWrapper{float: left;}
+#SocialMediaContentWrapper .scrollLeft{ background: url("/images/scrollLeftIconG.png") no-repeat scroll center right transparent;}
+#SocialMediaContentWrapper .scrollRight{ background: url("/images/scrollRightIconG.png") no-repeat scroll center left transparent;}
+.scrollLeft,.scrollRight{float: left; width: 40px;height: 130px;visibility:hidden;cursor: pointer}
+#SocialMediaContentHolder{float: left;height: 200px;overflow: hidden;text-align: center;width: 900px;}
+#SocialMediaSignInBox{float: left; margin: 55px 345px;}
+#FBSignIn,#TWSignIn{float: left; width: 210px;}
+.orString{float: left; margin: 0px 20px; font-style: italic; line-height: 28px;}
+
+#SocialMediaContentHolder .fbFeed,#SocialMediaContentHolder .twTweet{float: left; border-style: solid; border-width: 2px; padding: 8px 8px 20px; margin: 0 20px;min-height: 100px}
+#SocialMediaContentHolder .fbFeed .argumentHead,#SocialMediaContentHolder .twTweet .argumentHead{clear: both; width: 190px;}
+#SocialMediaContentHolder .argumentHead .timeStamp{width: 145px}
+#SocialMediaContentHolder button.fbFeedPost,#SocialMediaContentHolder button.twTweetPost{padding: 0px 5px; float: right; clear: right;}
+#SocialMediaContentHolder .argumentDesc{float: left; width: 240px; clear: both; text-align: justify;font-family: Arimo;margin: 10px 0 0;text-align: left;-moz-hyphens:auto;-webkit-hyphens:auto;hyphens: auto;}
+.argumentImageHolder{float: left;overflow: hidden;max-height: 60px;max-width: 220px}
+.argumentDescFull{display: none;}
+
+#inviteFriends{position: absolute; top: 4px; left: 10px; font-size: 12px;}
+
+#SocilaMediaContent{width: 4500px; height: 200px;}
+#SocilaMediaContent>div{display: inline;height: 200px;width: 900px;float: left;}
+#SocialMediaPaging{float: left;text-align: center;width: 100%;}
+.pagingCircle{border: 2px solid #A8A096;border-radius: 10px 10px 10px 10px;display: inline-block;height: 5px;margin: 0 5px;width: 5px}
+.pagingCircle.active{background-color: #A8A096;}
+
+.fbFeed .userImgCircleSmall,.twTweet .userImgCircleSmall{cursor: default}
+.fbFeed .username,.twTweet .username{float: left;}
+
+.argumentDescLongArg{overflow: hidden; height: 85px;}
+
+.agreeButtonLarge{
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+    float: left;
+    height: 30px;
+    margin: 0 0 0 2%;
+    width: 48%;
+}
+.disagreeButtonLarge{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+    -moz-border-top-left-radius: 0;
+    float: left;
+    height: 30px;
+    margin: 0 2% 0 0;
+    width: 48%;
+}
+#userVoteOnThirdPartyPost{
+    float: left;
+    width: 100%;
+}
+#userVoteOnThirdPartyPost label{
+    float: left;
+    padding: 0 0 3px 5px;
+    width: 100%;
+}
+#userVoteButtonWrapper{
+    border: 0px solid;
+    float: left;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    width: 100%;
+}
+#TopicSelector.error,#userVoteButtonWrapper.error{
+    border: 1px solid #B8411A;
+}
+span#dragHandle{
+    cursor:move;
+    left:17px;
+    position:absolute;
+    top:0;
+    width:270px;
+}
+#fbFriendListWrapper,#twFriendListWrapper{float: left; margin: 5px 0px 0px;width: 100%}

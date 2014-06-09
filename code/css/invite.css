@@ -1,0 +1,67 @@
+#profileLeftSection {border-radius: 8px 8px 8px 8px;float: left;margin: 9px 9px 5px 0;width: 349px;}
+#userProfileDisplaySection {background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #DAD8CD;border-radius: 8px 8px 8px 8px;float: left;}
+#userProfilePicure {border: 1px solid #B7B7B7;border-radius: 10px 10px 10px 10px;float: left;height: 99px;margin: 13px 0 13px 14px;overflow: hidden;width: 100px;}
+#userBasicInfoDisplaySection {float: left;margin: 13px 0 0 16px;width: 217px;}
+#userprofilename {color: #257D9A;float: left;font-size: 20px;font-weight: normal;margin: 0 10px 0 0;text-transform: capitalize;width: 200px;}
+#userBasicInfoDisplaySection {float: left;margin: 13px 0 0 16px;width: 217px;}
+#contactform {float: left;width: 480px;padding:10px;}
+.contacttextarea,.contacttextfield{
+    -moz-transition-duration: 1s;
+    -moz-transition-property: border-color, box-shadow,color;
+    -moz-transition-timing-function: ease;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-property: border-color, box-shadow,color;
+    -webkit-transition-timing-function: ease;
+    -o-transition-duration: 1s;
+    -o-transition-property: border-color, box-shadow,color;
+    -o-transition-timing-function: ease;
+}
+.contacttextfield {border-radius: 5px 5px 5px 5px;border: 1px solid #B8B5B5;box-shadow: 2px 0pt 5px 0pt rgba(0, 0, 0, 0.2) inset;color: #999999;float: left;font-size: 1em;margin: 0pt 0pt 19px;padding: 12px;width: 424px;}
+.contacttextfield:focus,.contacttextarea:focus {border: 1px solid #51B1DD;box-shadow:2px 0 5px 0 rgba(0, 0, 0, 0.2) inset, 0 0 10px 5px rgba(196, 225, 231, 0.75);color: #367184;}
+#userprofileDescription {color: #7B7B7B;float: left;font-size: 14px;font-weight: normal;margin: 5px 10px 0 0;text-decoration: none;}
+#userprofileemail {color: #257D9A;float: left;font-size: 13px;font-weight: normal;margin: 5px 10px 5px 0;text-decoration: none;}
+#userBasicInfoDisplaySection .followMember,#userBasicInfoDisplaySection .unfollowMember,#userBasicInfoDisplaySection .followingMember{float: left;margin: 10px 0;position: static;right: auto;top: auto;width: 115px;}
+#userBasicInfoDisplaySection {float: left;margin: 13px 0 0 16px;width: 217px;}
+.userDetailedInformation>div:last-child{border-radius: 0px 0px 8px 8px;}
+.userDetailedInformation div img{float: right;margin-right: 15px;}
+.userInfoTab{border-bottom: 1px solid transparent;border-top: 1px solid #DAD8CD;cursor: pointer;float: left;font-family: verdana;padding: 5px 0 5px 21px;width: 328px;}
+.userInfoTab>p{float: left;font-family: verdana;font-size: 12px;font-weight: normal;margin: 0 5px 0 0;padding: 0;}
+#followCount,#followedByCount{color: #64BCD9;}
+.countClass{ border: 1px solid #DEDDD3;border-radius: 12px 12px 12px 12px;color: #9E9E9E;font-size: 10px;padding-left: 9px;padding-right:9px; float: right;height:14px; background: none repeat scroll 0 0 #FFFFFF;}
+#statChartSection {background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #B7B7B7;border-radius: 8px 8px 8px 8px;float: left;height: 385px;margin: 5px 0 0;}
+.twtextfield {border-radius: 5px 5px 5px 5px;border: 1px solid #B8B5B5;box-shadow: 2px 0pt 5px 0pt rgba(0, 0, 0, 0.2) inset;color: #999999;float: left;font-size: 1em;margin: 0pt 0pt 19px;padding: 7px;width: 250px;}
+.twtextfield:focus,.contacttextarea:focus {border: 1px solid #51B1DD;box-shadow:2px 0 5px 0 rgba(0, 0, 0, 0.2) inset, 0 0 10px 5px rgba(196, 225, 231, 0.75);color: #367184;}
+.contacttextarea {border-radius: 5px 5px 5px 5px;border: 1px solid #B8B5B5;box-shadow: 2px 0pt 5px 0pt rgba(0, 0, 0, 0.2) inset;color: #999999;float: left;font-size: 1em;height: 85px;padding: 12px;width: 424px;}
+#altcontact {background: none repeat scroll 0pt 0pt #FFFFFF;border-radius: 5px 5px 5px 5px;border: 1px solid #B8B5B5;box-shadow: 0pt 0pt 10px 0pt rgba(0, 0, 0, 0.38) inset;float: left;padding: 3px 0pt 16px 15px;width: 300px;}
+#detailedSection{border:none;}
+#submitArea {float: left;padding: 20px;text-align: right;width: 432px;}
+#submitBtn{border: 1px solid rgba(0, 0, 0, 0.14);border-radius: 7px 7px 7px 7px;box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(1, 1, 1, 0.2) inset;color: #000000;padding: 5px 0;text-align: center;width: 138px;color: #333333;font-family: arial;font-size: 14px;font-weight: bold;}
+#twtBtn{border: 1px solid rgba(0, 0, 0, 0.14);border-radius: 7px 7px 7px 7px;box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1), 0 0 1px 0 rgba(1, 1, 1, 0.2) inset;color: #000000;padding: 5px 0;text-align: center;width: 80px;color: #333333;font-family: arial;font-size: 14px;font-weight: bold;margin-left:10px;float: left;}
+#submitBtn, #twtBtn{
+    background: #ffffff; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 40%, #f2f2f2 60%, #f2f2f2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(40%,#ffffff), color-stop(60%,#f2f2f2), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 40%,#f2f2f2 60%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#ffffff 40%,#f2f2f2 60%,#f2f2f2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#ffffff 40%,#f2f2f2 60%,#f2f2f2 100%); /* IE10+ */
+    background: linear-gradient(top,  #ffffff 0%,#ffffff 40%,#f2f2f2 60%,#f2f2f2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-8 */
+}
+#topbar{background: none;}
+.tabActive{cursor: default;background: url("/images/bg-profile-tab.png") repeat-x scroll 0 0 transparent;}
+.fbFriend{width:295px;padding: 10px;float:left;text-align: left;}
+.fbFriend div{width:240px;padding-left: 5px;float:left;}
+.inviteIcon{float: right;background: url("/images/bg-invite.png") repeat-x scroll 0 0 transparent;border-radius:6px;color: #FFFFFF;margin: 2px 10px 5px;padding: 6px 0;text-align: center;width: 92px;cursor: pointer;}
+#twInviteContainer{display: none;}
+/*****Invite right section styles*****/
+#profileRightSection {float: left;margin: 9px 0;overflow: visible;padding: 0;width: 615px;}
+#detailedSection{border: 1px solid #DAD8CD;border-radius: 8px 8px 8px 8px;float: left;overflow: visible;}
+#topbar{background:url("/images/bg-profile-tab.png") repeat-x scroll 0 0 transparent;border-bottom: 1px solid #dad8cd;border-radius: 8px 8px 0 0;height: 22px;padding-left: 10px;padding-top: 5px;}
+#topbar>img{float: right; margin: 5px 10px;}
+#contentDetail{background: none repeat scroll 0 0 #FFFFFF;float: left;max-height: 658px;min-width: 613px;border-radius:8px;}
+.memberSection{background: none repeat scroll 0 0 #FFFFFF;border-bottom: 1px solid #DAD8CD;border-right: 1px solid #DAD8CD;float: left;min-height: 61px;width: 305.5px;}
+.memberPhoto{height:43px;width:43px;border-radius:5px;margin:10px;float:left;}
+.memberSection .userName{color: #313030;float: left;font-size: 14px;margin-top: 8px;width: 235px;text-align: left;}
+.memberSection .userName a{color: #000000;text-decoration: none;}
