@@ -1,0 +1,1 @@
+ALTER TABLE `usermemberprofile` ADD COLUMN `notifyFlag` BOOLEAN NOT NULL DEFAULT 1 AFTER `location`;

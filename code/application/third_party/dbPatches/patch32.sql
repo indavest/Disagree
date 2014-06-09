@@ -1,0 +1,1 @@
+update usermember set status=1

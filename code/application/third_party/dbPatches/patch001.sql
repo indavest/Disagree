@@ -1,0 +1,1 @@
+ALTER TABLE `disagreeme`.`argumentcomment` MODIFY COLUMN `commenttext` MEDIUMTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;

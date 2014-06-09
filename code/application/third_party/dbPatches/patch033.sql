@@ -1,0 +1,1 @@
+﻿ALTER TABLE notification_queue ADD notified INT(10) NOT NULL DEFAULT 0
